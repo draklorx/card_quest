@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Prisoner Rescue",
+    "description": "ENEMY has captured ALLY and tied them up. Can you rescue them?",
+    "flow": [
+      {
+        "type": "Enemy",
+        "options": [
+          {
+            "ability": "talk",
+            "description": "Negotiate for the ally's release\nGive up one treasure\nBypass ENCOUNTER if successful"
+          }
+        ]
+      },
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "think",
+            "difficulty": "easy",
+            "description": "Untie the ally's bonds"
+          },
+        
+          {
+            "ability": "sneak",
+            "difficulty": "easy",
+            "description": "Cut their bonds"
+          },
+          {
+            "ability": "fight",
+            "difficulty": "medium",
+            "description": "Carry them to safety\nNot available if sneak check was used on ENEMY"
+          }
+        ]
+      },
+      {
+        "type": "Ally",
+        "options": [
+          {
+            "ability": "talk",
+            "difficulty": "easy",
+            "description": "Ask for a reward for saving them"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beast Ambush",
+    "description": "BEAST has cornered ENEMY in a dead end. How do you handle it?",
+    "flow": [
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "talk",
+            "difficulty": "easy",
+            "description": "Convince them to help\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
+          }
+        ]
+      },
+      {
+        "type": "Beast",
+        "options": [
+          {
+            "ability": "think",
+            "difficulty": "medium",
+            "description": "Distract the beast to allow escape"
+          }
+        ]
+      },
+      {
+        "type": "Enemy",
+        "options": [
+            {
+              "ability": "talk",
+              "difficulty": "medium",
+              "description": "Ask for a reward for saving them"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ally Quest",
+    "description": "ALLY needs his treasure back from BEAST's lair. Can you convince them you can help?",
+    "flow": [
+      {
+        "type": "Ally",
+        "options": []
+      },
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "talk",
+            "difficulty": "medium",
+            "description": "Convince the ally to help\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
+          }
+        ]
+      },
+      {
+        "type": "Beast",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "Fresh Tracks",
+    "description": "You spot fresh BEAST tracks on the path you recall a reward posted for it. What do you do?",
+    "flow": [
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "search",
+            "difficulty": "easy",
+            "description": "Follow the tracks to find the beast"
+          },
+          {
+            "ability": "think",
+            "difficulty": "easy",
+            "description": "Predict its location based its lore"
+          }
+        ]
+      },
+      {
+        "type": "Beast",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "Captured Beast",
+    "description": "ENEMY has captured BEAST and locked it in a cage. Can you free it?",
+    "flow": [
+      {
+        "type": "Enemy",
+        "options": []
+      },
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "search",
+            "difficulty": "medium",
+            "description": "Find the key to free the beast"
+          },
+          {
+            "ability": "sneak",
+            "difficulty": "medium",
+            "description": "Sneak into the cage and free the beast"
+          },
+          {
+            "ability": "fight",
+            "difficulty": "hard",
+            "description": "Break the cage open by force\nNot available if sneak check was used on ENEMY"
+          }
+        ]
+      },
+      {
+        "type": "Beast",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "Ally Trapped",
+    "description": "ALLY is trapped in BEAST lair. Can you rescue them?",
+    "flow": [
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "talk",
+            "difficulty": "easy",
+            "description": "Convince the ally to help you\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
+          }
+        ]
+      },
+      {
+        "type": "Beast",
+        "options": []
+      },
+      {
+        "type": "Ally",
+        "options": [
+          {
+            "ability": "talk",
+            "difficulty": "easy",
+            "description": "Ask for a reward for saving them"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Battle Royale",
+    "description": "ENEMY is in a pitched battle with ENEMY. How do you want to get involved?",
+    "flow": [
+      {
+        "type": "Encounter",
+        "options": [
+          {
+            "ability": "think",
+            "difficulty": "easy",
+            "description": "Wait to see who wins\nSkip the next ENEMY check\nFace the ENEMY with higher fight"
+          },
+          {
+            "ability": "sneak",
+            "difficulty": "easy",
+            "description": "Sneak away from the battle\nSkip both ENEMY checks\nNo reward for encounter"
+          },
+          {
+            "difficulty": "auto",
+            "description": "Join the battle"
+          }
+        ]
+      },
+      {
+        "type": "Enemy",
+        "options": [
+            {
+              "ability": "talk",
+              "difficulty": "easy",
+              "description": "Convince them to team up\n+1 to next ENEMY check on success"
+            }
+        ]
+      },
+      {
+        "type": "Enemy",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "Friendly Challenge",
+    "description": "ALLY challenges you to a friendly contest.",
+    "flow": [
+      {
+        "type": "Ally",
+        "options": [
+          {
+            "ability": "fight",
+            "description": "Accept a wrestling match"
+          },
+          {
+            "ability": "think",
+            "description": "Solve riddles in the contest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bridge Guard",
+    "description": "ENEMY has setup post at a bridge and demand a toll. How will you get across the river?",
+    "flow": [
+      {
+        "type": "Enemy",
+        "options": [
+          {
+            "difficulty": "auto",
+            "description": "Pay the toll\nGive up one treasure\nNo reward for encounter"
+          },
+          {
+            "ability": "search",
+            "difficulty": "medium",
+            "description": "Find another way across the river."
+          }
+        ]
+      }
+    ]
+  }
+]

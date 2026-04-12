@@ -1,0 +1,227 @@
+[
+  {
+    "image": "allies/elf.png",
+    "name": "Elf",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "hard"},
+      {"ability": "think", "difficulty": "hard"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "hard"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Praise the elf to gain their favor"
+      },
+      {
+        "ability": "think",
+        "description": "Recall elven lore to impress them"
+      },
+      {
+        "ability": "search",
+        "description": "Find a gift of forest herbs"
+      }
+    ]
+  },
+  {
+    "image": "allies/dwarf.png",
+    "name": "Dwarf",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "easy"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Impress them with tales of your valor"
+      },
+      {
+        "ability": "fight",
+        "description": "Engage in a drinking contest"
+      },
+      {
+        "ability": "think",
+        "description": "Honor the dwarven ways"
+      }
+    ]
+  },
+  {
+    "image": "allies/pixie.png",
+    "name": "Pixie",
+    "abilities": [
+      {"ability": "fight", "difficulty": "easy"},
+      {"ability": "search", "difficulty": "hard"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Charm the pixie"
+      },
+      {
+        "ability": "sneak",
+        "description": "Play hide and seek with them"
+      },
+      {
+        "ability": "search",
+        "description": "Find them a trinket"
+      }
+    ]
+  },
+  {
+    "image": "allies/treent.png",
+    "name": "Treent",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "easy"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Prove your worth in a friendly spar"
+      },
+      {
+        "ability": "talk",
+        "description": "Speak of honor to earn their trust"
+      },
+      {
+        "ability": "think",
+        "description": "Recall the knight's oath to impress them"
+      }
+    ]
+  },
+  {
+    "image": "allies/halfling.png",
+    "name": "Halfling",
+    "abilities": [
+      {"ability": "fight", "difficulty": "easy"},
+      {"ability": "search", "difficulty": "hard"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "easy"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Share a meal with them"
+      },
+      {
+        "ability": "search",
+        "description": "Bring them tasty mushrooms"
+      },
+      {
+        "ability": "think",
+        "description": "Help solve a problem they have"
+      }
+    ]
+  },
+  {
+    "image": "allies/satyr.png",
+    "name": "Satyr",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Join them in song"
+      },
+      {
+        "ability": "sneak",
+        "description": "Surprise them with a prank"
+      },
+      {
+        "ability": "fight",
+        "description": "Take them on in a drinking contest"
+      }
+    ]
+  },
+  {
+    "image": "allies/tinker_gnome.png",
+    "name": "Tinker Gnome",
+    "abilities": [
+      {"ability": "fight", "difficulty": "easy"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "hard"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "easy"}
+    ],
+    "options": [
+      {
+        "ability": "think",
+        "description": "Solve a puzzle"
+      },
+      {
+        "ability": "search",
+        "description": "Find spare parts"
+      },
+      {
+        "ability": "talk",
+        "description": "Praise their invention"
+      }
+    ]
+  },
+  {
+    "image": "allies/centaur.png",
+    "name": "Centaur",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Ask for guidance"
+      },
+      {
+        "ability": "sneak",
+        "description": "Help them in a hunt"
+      },
+      {
+        "ability": "fight",
+        "description": "Challenge them to an archery contest"
+      }
+    ]
+  },
+  {
+    "image": "allies/dryad.png",
+    "name": "Dryad",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "hard"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Promise protection"
+      },
+      {
+        "ability": "search",
+        "description": "Bring them their favorite flower"
+      },
+      {
+        "ability": "think",
+        "description": "Invoke forest lore"
+      }
+    ]
+  }
+]

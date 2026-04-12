@@ -1,0 +1,227 @@
+[
+  {
+    "image": "beasts/dire_wolf.png",
+    "name": "Dire Wolf",
+    "abilities": [
+      {"ability": "fight", "difficulty": "medium"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "hard"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Fight the dire wolf"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak past the dire wolf"
+      },
+      {
+        "ability": "talk",
+        "description": "Calm the dire wolf"
+      }
+    ]
+  },
+  {
+    "image": "beasts/giant_spider.png",
+    "name": "Giant Spider",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Fight the giant spider to kill it"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak around the spider's web"
+      },
+      {
+        "ability": "think",
+        "description": "Trick the spider by manipulating its web"
+      }
+    ]
+  },
+  {
+    "image": "beasts/troll.png",
+    "name": "Troll",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "easy"}
+    ],
+    "options": [
+      {
+        "ability": "think",
+        "description": "Recall the troll's weakness to defeat it"
+      },
+      {
+        "ability": "fight",
+        "description": "Fight the troll"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak past the troll"
+      }
+    ]
+  },
+  {
+    "image": "beasts/owlbear.png",
+    "name": "Owlbear",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Battle the owlbear to defeat it"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak quietly past the owlbear"
+      },
+      {
+        "ability": "talk",
+        "description": "Attempt to calm the owlbear"
+      }
+    ]
+  },
+  {
+    "image": "beasts/unicorn.png",
+    "name": "Unicorn",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "talk",
+        "description": "Try to earn the unicorn's trust"
+      },
+      {
+        "ability": "search",
+        "description": "Find the cause of the unicorn's distress"
+      },
+      {
+        "ability": "think",
+        "description": "Recall unicorn lore to help it"
+      }
+    ]
+  },
+  {
+    "image": "beasts/basilisk.png",
+    "name": "Basilisk",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "hard"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "think",
+        "description": "Recall basilisk lore on how to defeat it"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak past the basilisk"
+      },
+      {
+        "ability": "fight",
+        "description": "Fight the basilisk"
+      }
+    ]
+  },
+  {
+    "image": "beasts/gryphon.png",
+    "name": "Gryphon",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "easy"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "hard"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Fight the gryphon"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak past the gryphon"
+      },
+      {
+        "ability": "talk",
+        "description": "Calm the gryphon"
+      }
+    ]
+  },
+  {
+    "image": "beasts/duck.png",
+    "name": "A \"Perfectly Normal\" Duck",
+    "abilities": [
+      {"ability": "fight", "difficulty": "hard"},
+      {"ability": "search", "difficulty": "hard"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "medium"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Fight the duck, what could go wrong?"
+      },
+      {
+        "ability": "talk",
+        "description": "Calm the duck down"
+      },
+      {
+        "ability": "search",
+        "description": "Notice its nature and leave it be"
+      }
+    ]
+  },
+  {
+    "image": "beasts/giant_rat.png",
+    "name": "Giant Rat",
+    "abilities": [
+      {"ability": "fight", "difficulty": "easy"},
+      {"ability": "search", "difficulty": "medium"},
+      {"ability": "think", "difficulty": "medium"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
+    ],
+    "options": [
+      {
+        "ability": "fight",
+        "description": "Fight the giant rat to defeat it"
+      },
+      {
+        "ability": "sneak",
+        "description": "Sneak past the giant rat quietly"
+      },
+      {
+        "ability": "talk",
+        "description": "Intimidate the giant rat to scare it away"
+      }
+    ]
+  }
+]
