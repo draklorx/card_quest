@@ -25,6 +25,7 @@ const borderImages = {
   beast: new URL('../assets/card_border_beast.png', import.meta.url).href,
   enemy: new URL('../assets/card_border_enemy.png', import.meta.url).href,
   encounter: new URL('../assets/card_border_encounter.png', import.meta.url).href,
+  location: new URL('../assets/card_border_location.png', import.meta.url).href,
 }
 const cardBorder = borderImages[props.type as keyof typeof borderImages] || borderImages.ally
 const cardStyle = computed(() => {

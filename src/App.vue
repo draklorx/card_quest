@@ -42,6 +42,20 @@
     />
 
     <CardTypeSection
+      title="Locations"
+      :items="locations"
+      type="location"
+      :cardComponent="LocationCard"
+      pageBreak
+    />
+
+    <CardBackSection
+      title="Location Backs"
+      type="location"
+      pageBreak
+    />
+    
+    <CardTypeSection
       title="Encounters"
       :items="encounters"
       type="encounter"
@@ -54,6 +68,7 @@
       type="encounter"
       pageBreak
     />
+
   </div>
 </template>
 
@@ -62,10 +77,12 @@ import CardTypeSection from './components/CardTypeSection.vue'
 import CardBackSection from './components/CardBackSection.vue'
 import CreatureCard from './components/CreatureCard.vue'
 import EncounterCard from './components/EncounterCard.vue'
+import LocationCard from './components/LocationCard.vue'
 import alliesData from './data/allies.json'
 import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'
 import encountersData from './data/encounters.json'
+import locationsData from './data/locations.json'
 
 type CardAbility = {
   ability?: string
@@ -92,6 +109,7 @@ const allies = alliesData as EntityCard[]
 const beasts = beastsData as EntityCard[]
 const enemies = enemiesData as EntityCard[]
 const encounters = encountersData as EncounterCard[]
+const locations = locationsData as EntityCard[]
 </script>
 
 <style>

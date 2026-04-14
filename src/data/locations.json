@@ -2,6 +2,7 @@
     {
         "name": "Abandoned Village",
         "image": "locations/abandoned_village.png",
+        "offset": "-0.3in",
         "abilities": [
             {"ability": "fight", "difficulty": "-"},
             {"ability": "search", "difficulty": "-1"},
@@ -13,6 +14,7 @@
     {
         "name": "Old Bridge",
         "image": "locations/old_bridge.png",
+        "offset": "-0.2in",
         "abilities": [
             {"ability": "fight", "difficulty": "-1"},
             {"ability": "search", "difficulty": "+1"},
@@ -35,6 +37,7 @@
     {
         "name": "Ancient Ruins",
         "image": "locations/ancient_ruins.png",
+        "offset": "-0.1in",
         "abilities": [
             {"ability": "fight", "difficulty": "-1"},
             {"ability": "search", "difficulty": "-1"},
@@ -79,6 +82,7 @@
     {
         "name": "Fire Swamp",
         "image": "locations/fire_swamp.png",
+        "offset": "-0.3in",
         "abilities": [
             {"ability": "fight", "difficulty": "-1"},
             {"ability": "search", "difficulty": "-1"},
@@ -90,6 +94,7 @@
     {
         "name": "Calming Grove",
         "image": "locations/calming_grove.png",
+        "offset": "-0.3in",
         "abilities": [
             {"ability": "fight", "difficulty": "-1"},
             {"ability": "search", "difficulty": "-"},

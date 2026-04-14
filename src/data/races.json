@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Elf",
+        "image": "races/elf.png",
+        "abilities": [
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "sneak", "modifier": "+1"}
+        ],
+        "feat": {"name": "Forest Friend", "description": "+1 to talk checks with elves, treents, or dryads."}
+    },
+    {
+        "name": "Dwarf",
+        "image": "races/dwarf.png",
+        "abilities": [
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "health", "modifier": "+1"}
+        ],
+        "feat": {"name": "Stonecunning", "description": "+1 to search checks in caves, mountains, or ruins."}
+    },
+    {
+        "name": "Halfling",
+        "image": "races/halfling.png",
+        "abilities": [
+            {"ability": "sneak", "modifier": "+1"},
+            {"ability": "stress", "modifier": "+1"}
+        ],
+        "feat": {"name": "Lucky", "description": "Once per quest, you can re-roll one failed check."}
+    },
+    {
+        "name": "Gnome",
+        "image": "races/gnome.png",
+        "abilities": [
+            {"ability": "think", "modifier": "+1"},
+            {"ability": "search", "modifier": "+1"}
+        ],
+        "feat": {"name": "Inventor", "description": "Once per quest, you can use an invention to get +1 to a check."}
+    },
+    {
+        "name": "Human",
+        "image": "races/human.png",
+        "abilities": [
+            {"ability": "stress", "modifier": "+1"},
+            {"ability": "talk", "modifier": "+1"}
+        ],
+        "feat": {"name": "Versatile", "description": "Once per quest, you can choose any one ability to use for a check."}
+    },
+    {
+        "name": "Fairy",
+        "image": "races/fairy.png",
+        "abilities": [
+            {"ability": "sneak", "modifier": "+1"},
+            {"ability": "think", "modifier": "+1"}
+        ],
+        "feat": {"name": "Flight", "description": "Ignore any negative modifiers to sneak or search checks."}
+    },
+    {
+        "name": "Katari",
+        "image": "races/katari.png",
+        "abilities": [
+            {"ability": "sneak", "modifier": "+1"},
+            {"ability": "search", "modifier": "+1"}
+        ],
+        "feat": {"name": "Beast Friend", "description": "You get a +1 bonus to talk checks with beasts."}
+    },
+    {
+        "name": "Planar",
+        "image": "races/planar.png",
+        "abilities": [
+            {"ability": "talk", "modifier": "+1"},
+            {"ability": "sneak", "modifier": "+1"}
+        ],
+        "feat": {"name": "Celestial", "description": "You get a +1 bonus to talk checks with allies."}
+    },
+    {
+        "name": "Funguy",
+        "image": "races/funguy.png",
+        "abilities": [
+            {"ability": "health", "modifier": "+1"},
+            {"ability": "stress", "modifier": "+1"}
+        ],
+        "feat": {"name": "Spore Cloud", "description": "Once per quest, an character can remove one stress."}
+    }
+    
+
+]

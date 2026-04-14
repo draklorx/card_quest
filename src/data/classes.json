@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Rogue",
+        "image": "classes/rogue.png",
+        "abilities": [
+            {"ability": "sneak", "modifier": "+1"},
+            {"ability": "stress", "modifier": "+1"}
+        ],
+        "feat": {"name": "Sneak Attack", "description": "Once per quest, you can use sneak instead of fight for a fight check."}
+    },
+    {
+        "name": "Warrior",
+        "image": "classes/warrior.png",
+        "abilities": [
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "health", "modifier": "+1"}
+        ],
+        "feat": {"name": "Protect", "description": "Once per quest when another character loses a health point, you can lose it intead."}
+    },
+    {
+        "name": "Wizard",
+        "image": "classes/wizard.png",
+        "abilities": [
+            {"ability": "think", "modifier": "+1"},
+            {"ability": "search", "modifier": "+1"}
+        ],
+        "feat": {"name": "Magic Missile", "description": "Once per quest, you can auto pass a fight check."}
+    },
+    {
+        "name": "Bard",
+        "image": "classes/bard.png",
+        "abilities": [
+            {"ability": "talk", "modifier": "+1"},
+            {"ability": "stress", "modifier": "+1"}
+        ],
+        "feat": {"name": "Inspire", "description": "Once per quest, you can give an ally +1 to any one check."}
+    },
+    {
+        "name": "Ranger",
+        "image": "classes/ranger.png",
+        "abilities": [
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "sneak", "modifier": "+1"}
+        ],
+        "feat": {"name": "Favored Terrain", "description": "Once per quest, you can ignore any penalty from a location."}
+    },
+    {
+        "name": "Cleric",
+        "image": "classes/cleric.png",
+        "abilities": [
+            {"ability": "talk", "modifier": "+1"},
+            {"ability": "health", "modifier": "+1"}
+        ],
+        "feat": {"name": "Heal", "description": "Once per quest, you can heal an ally for 1 health point."}
+    },
+    {
+        "name": "Paladin",
+        "image": "classes/paladin.png",
+        "abilities": [
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "talk", "modifier": "+1"}
+        ],
+        "feat": {"name": "Divine Smite", "description": "Once per quest, you can add +1 to a fight check and ignore any negative modifier to fight."}
+    },
+    {
+        "name": "Druid",
+        "image": "classes/druid.png",
+        "abilities": [
+            {"ability": "think", "modifier": "+1"},
+            {"ability": "search", "modifier": "+1"}
+        ],
+        "feat": {"name": "Wild Shape", "description": "Once per quest, you can auto pass a sneak check."}
+    },
+    {
+        "name": "Monk",
+        "image": "classes/monk.png",
+        "abilities": [
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "think", "modifier": "+1"}
+        ],
+        "feat": {"name": "Ki", "description": "Once per quest, you can add +1 to any one check."}
+    }
+]
