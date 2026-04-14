@@ -2,19 +2,14 @@
   <Card :type="type">
     <div class="encounter-wrapper" :style="parchmentStyle">
       <div class="card-title">{{ item.name }}</div>
-      <div class="card-description">{{ item.description }}</div>
+      <div class="card-description">{{ item.public_description }}</div>
+      <div class="card-gm-notes">
+        <span class="card-section-header">GM Notes:</span>
+        {{ item.gm_notes }}
+      </div>
       <div class="card-flow">
         <div v-for="(step, index) in item.flow" :key="index" class="card-flow-step">
-          <div class="card-flow-type">{{ step.type }}</div>
-          <ul class="card-list">
-            <Option
-              v-for="option in step.options"
-              :key="option.description"
-              :ability="option.ability"
-              :difficulty="option.difficulty"
-              :description="option.description"
-            />
-          </ul>
+          <span class="card-section-header">{{ step.type }}:</span> {{ step.details }}
         </div>
       </div>
     </div>
@@ -24,34 +19,13 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import Card from './Card.vue'
-import Option from './Option.vue'
-
-const abilityIcons = {
-  fight: new URL('../assets/icon_ability_fight.png', import.meta.url).href,
-  search: new URL('../assets/icon_ability_search.png', import.meta.url).href,
-  sneak: new URL('../assets/icon_ability_sneak.png', import.meta.url).href,
-  talk: new URL('../assets/icon_ability_talk.png', import.meta.url).href,
-  think: new URL('../assets/icon_think.png', import.meta.url).href,
-}
-
-const difficultyIcons = {
-  auto: new URL('../assets/icon_difficulty_auto.png', import.meta.url).href,
-  easy: new URL('../assets/icon_difficulty_easy.png', import.meta.url).href,
-  medium: new URL('../assets/icon_difficulty_medium.png', import.meta.url).href,
-  hard: new URL('../assets/icon_difficulty_hard.png', import.meta.url).href,
-}
-
-type Option = {
-  ability?: string
-  difficulty?: string
-  description: string
-}
 
 const props = defineProps<{
   item: {
     name: string
-    description: string
-    flow: Array<{ type: string; options: Option[] }>
+    public_description: string
+    gm_notes: string
+    flow: Array<{ type: string; details: string }>
   }
   type: string
 }>()
@@ -64,35 +38,42 @@ const parchmentStyle = computed(() => ({
   backgroundSize: 'cover',
 }))
 
-const abilityIcon = (ability?: string) => {
-  if (!ability) return ''
-  const key = ability.toLowerCase() as keyof typeof abilityIcons
-  return abilityIcons[key] ?? abilityIcons.think
-}
-
-const difficultyIcon = (difficulty?: string) => {
-  if (!difficulty) return ''
-  const key = difficulty.toLowerCase() as keyof typeof difficultyIcons
-  return difficultyIcons[key] ?? difficultyIcons.medium
-}
 </script>
 
 <style scoped>
-.card-flow-type {
-  font-weight:700;
-  font-family: "Almendra SC", serif;
-}
+
 .encounter-wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 0.2in;
+  padding: 0.3in;
+  padding-top:.375in;
   box-sizing: border-box;
 }
 
-.card-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.card-gm-notes {
+  margin-bottom: 0.06in;
+  font-size: 8pt;
+  line-height: 1.3;
+  font-style: italic;
+}
+
+.card-gm-label {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card-flow-step {
+  font-size: 8pt;
+  margin-bottom:.08in;
+}
+
+.card-section-header {
+  font-size: 9pt;
+  color: #1c2e30;
+  display: inline;
+  font-weight:700;
+  font-family: "Almendra SC", serif;
+  font-style: normal;
 }
 </style>

@@ -75,6 +75,7 @@ type CardAbility = {
 
 type EntityCard = {
   image?: string
+  offset?: string
   name: string
   abilities: CardAbility[]
   options: CardAbility[]
@@ -82,8 +83,9 @@ type EntityCard = {
 
 type EncounterCard = {
   name: string
-  description: string
-  flow: Array<{ type: string; options: CardAbility[] }>
+  public_description: string
+  gm_notes: string
+  flow: Array<{ type: string; details: string }>
 }
 
 const allies = alliesData as EntityCard[]
@@ -120,6 +122,7 @@ body {
   margin-bottom: 0.12in;
   text-align: center;
   font-family: "Almendra SC", serif;
+  word-spacing:0.02in;
 }
 .card-subtitle {
   font-size: 0.12in;
@@ -128,7 +131,7 @@ body {
 }
 .card-description {
   margin-bottom: 0.05in;
-  font-size: 0.13in;
+  font-size: 9pt;
   line-height: 1.3;
 }
 .card-list {
@@ -144,13 +147,6 @@ body {
 .card-flow {
   display: grid;
   gap: 0in;
-}
-.card-flow-type {
-  font-size: 0.11in;
-  letter-spacing: 0.06em;
-  margin-bottom: 0.05in;
-  margin-top: 0.05in;
-  color: #1c2e30;
 }
 .option-description {
   margin-left: 0.07in;

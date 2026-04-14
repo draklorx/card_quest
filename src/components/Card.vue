@@ -14,6 +14,7 @@ const props = defineProps<{
   backgroundImage?: string
   backgroundSize?: string
   backgroundPosition?: string
+  backgroundPositionY?: string
 }>()
 const cardClasses = computed(() => [
   'card',
@@ -34,6 +35,9 @@ const cardStyle = computed(() => {
     style.backgroundImage = `url("${props.backgroundImage}")`
     style.backgroundSize = props.backgroundSize ?? 'contain'
     style.backgroundPosition = props.backgroundPosition ?? 'top'
+    if (props.backgroundPositionY) {
+      style.backgroundPositionY = props.backgroundPositionY
+    }
     style.backgroundRepeat = 'no-repeat'
   }
   return style

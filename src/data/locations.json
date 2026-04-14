@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Abandoned Village",
+        "image": "locations/abandoned_village.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-"},
+            {"ability": "search", "difficulty": "-1"},
+            {"ability": "think", "difficulty": "-"},
+            {"ability": "talk", "difficulty": "-"},
+            {"ability": "sneak", "difficulty": "+1"}
+        ]
+    },
+    {
+        "name": "Old Bridge",
+        "image": "locations/old_bridge.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "+1"},
+            {"ability": "think", "difficulty": "-"},
+            {"ability": "talk", "difficulty": "-"},
+            {"ability": "sneak", "difficulty": "-1"}
+        ]
+    },
+    {
+        "name": "Dark Forest",
+        "image": "locations/dark_forest.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-"},
+            {"ability": "search", "difficulty": "-1"},
+            {"ability": "think", "difficulty": "-"},
+            {"ability": "talk", "difficulty": "-"},
+            {"ability": "sneak", "difficulty": "+1"}
+        ]
+    },
+    {
+        "name": "Ancient Ruins",
+        "image": "locations/ancient_ruins.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "-1"},
+            {"ability": "think", "difficulty": "-"},
+            {"ability": "talk", "difficulty": "-"},
+            {"ability": "sneak", "difficulty": "+1"}
+        ]
+    },
+    {
+        "name": "Echo Cave",
+        "image": "locations/echo_cave.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-"},
+            {"ability": "search", "difficulty": "+1"},
+            {"ability": "think", "difficulty": "-1"},
+            {"ability": "talk", "difficulty": "-1"},
+            {"ability": "sneak", "difficulty": "-1"}
+        ]
+    },
+    {
+        "name": "Haunted Mansion",
+        "image": "locations/haunted_mansion.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "-1"},
+            {"ability": "think", "difficulty": "-1"},
+            {"ability": "talk", "difficulty": "-"},
+            {"ability": "sneak", "difficulty": "-"}
+        ]
+    },
+    {
+        "name": "Mountain Pass",
+        "image": "locations/mountain_pass.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "+1"},
+            {"ability": "think", "difficulty": "-"},
+            {"ability": "talk", "difficulty": "-1"},
+            {"ability": "sneak", "difficulty": "+1"}
+        ]
+    },
+    {
+        "name": "Fire Swamp",
+        "image": "locations/fire_swamp.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "-1"},
+            {"ability": "think", "difficulty": "-1"},
+            {"ability": "talk", "difficulty": "-1"},
+            {"ability": "sneak", "difficulty": "-1"}
+        ]
+    },
+    {
+        "name": "Calming Grove",
+        "image": "locations/calming_grove.png",
+        "abilities": [
+            {"ability": "fight", "difficulty": "-1"},
+            {"ability": "search", "difficulty": "-"},
+            {"ability": "think", "difficulty": "+1"},
+            {"ability": "talk", "difficulty": "+1"},
+            {"ability": "sneak", "difficulty": "-"}
+        ]
+    }
+]

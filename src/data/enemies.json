@@ -1,77 +1,37 @@
 [
   {
     "image": "enemies/bandit.png",
-    "name": "Bandit",
+    "name": "Bandits",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "easy"},
       {"ability": "think", "difficulty": "medium"},
       {"ability": "talk", "difficulty": "medium"},
       {"ability": "sneak", "difficulty": "medium"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Fight the bandit"
-      },
-      {
-        "ability": "talk",
-        "description": "Intimidate the bandit to back down"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the bandit unnoticed"
-      }
     ]
   },
   {
     "image": "enemies/orc.png",
-    "name": "Orc",
+    "offset": "-0.4in",
+    "name": "Orcs",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
       {"ability": "think", "difficulty": "medium"},
       {"ability": "talk", "difficulty": "hard"},
       {"ability": "sneak", "difficulty": "hard"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Defeat the orc in battle"
-      },
-      {
-        "ability": "talk",
-        "description": "Intimidate the orc to back down"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the orc unnoticed"
-      }
     ]
   },
   {
     "image": "enemies/goblin.png",
-    "name": "Goblin",
+    "name": "Goblins",
+    "offset": "-0.1in",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "medium"},
       {"ability": "think", "difficulty": "easy"},
       {"ability": "talk", "difficulty": "medium"},
       {"ability": "sneak", "difficulty": "hard"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Defeat the goblin"
-      },
-      {
-        "ability": "think",
-        "description": "Use trickery to fool them"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the goblin"
-      }
     ]
   },
   {
@@ -83,20 +43,6 @@
       {"ability": "think", "difficulty": "easy"},
       {"ability": "talk", "difficulty": "hard"},
       {"ability": "sneak", "difficulty": "easy"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Fight the ogre head-on"
-      },
-      {
-        "ability": "think",
-        "description": "Trick the ogre into a trap"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak around the ogre's lair"
-      }
     ]
   },
   {
@@ -108,95 +54,42 @@
       {"ability": "think", "difficulty": "medium"},
       {"ability": "talk", "difficulty": "medium"},
       {"ability": "sneak", "difficulty": "hard"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Drive off the harpy"
-      },
-      {
-        "ability": "talk",
-        "description": "Appease the harpy with song"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the harpy"
-      }
     ]
   },
   {
-    "image": "enemies/minotaur.png",
-    "name": "Minotaur",
+    "image": "enemies/hag.png",
+    "offset": "-0.3in",
+    "name": "Hag",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "hard"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Outmaneuver and fight the minotaur"
-      },
-      {
-        "ability": "search",
-        "description": "Impress them with your direction sense"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the minotaur in shadows"
-      }
+      {"ability": "think", "difficulty": "hard"},
+      {"ability": "talk", "difficulty": "hard"},
+      {"ability": "sneak", "difficulty": "medium"}
     ]
   },
   {
     "image": "enemies/kobold.png",
-    "name": "Kobold",
+    "name": "Kobolds",
+    "offset": "-0.3in",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "medium"},
       {"ability": "think", "difficulty": "easy"},
       {"ability": "talk", "difficulty": "easy"},
       {"ability": "sneak", "difficulty": "medium"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Drive away the kobold"
-      },
-      {
-        "ability": "talk",
-        "description": "Scare the kobold with a loud noise"
-      },
-      {
-        "ability": "think",
-        "description": "Trick the kobold"
-      }
     ]
   },
   {
     "image": "enemies/skeleton.png",
-    "name": "Skeleton",
+    "name": "Skeletons",
+    "offset": "-0.6in",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "easy"},
       {"ability": "think", "difficulty": "medium"},
       {"ability": "talk", "difficulty": "impossible"},
       {"ability": "sneak", "difficulty": "medium"}
-    ],
-    "options": [
-      {
-        "ability": "fight",
-        "description": "Shatter the skeleton's bones"
-      },
-      {
-        "ability": "search",
-        "description": "Search for its animating relic"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the skeleton guardians"
-      }
     ]
   },
   {
@@ -208,20 +101,6 @@
       {"ability": "think", "difficulty": "medium"},
       {"ability": "talk", "difficulty": "hard"},
       {"ability": "sneak", "difficulty": "medium"}
-    ],
-    "options": [
-      {
-        "ability": "talk",
-        "description": "Learn the wraith's name and banish it"
-      },
-      {
-        "ability": "search",
-        "description": "Search for remains to consecrate"
-      },
-      {
-        "ability": "sneak",
-        "description": "Sneak past the wraith's presence"
-      }
     ]
   }
 ]

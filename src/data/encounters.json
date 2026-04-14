@@ -1,274 +1,160 @@
 [
   {
-    "name": "Prisoner Rescue",
-    "description": "ENEMY has captured ALLY and tied them up. Can you rescue them?",
+    "name": "Ally Rescue",
+    "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
+    "gm_notes": "ALLY was captured by ENEMY and is being held in their camp.",
     "flow": [
       {
-        "type": "Enemy",
-        "options": [
-          {
-            "ability": "talk",
-            "description": "Negotiate for the ally's release\nGive up one treasure\nBypass ENCOUNTER if successful"
-          }
-        ]
+        "type": "Investigation",
+        "details": "You must figure out what happened and locate enemy camp."
       },
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "think",
-            "difficulty": "easy",
-            "description": "Untie the ally's bonds"
-          },
-        
-          {
-            "ability": "sneak",
-            "difficulty": "easy",
-            "description": "Cut their bonds"
-          },
-          {
-            "ability": "fight",
-            "difficulty": "medium",
-            "description": "Carry them to safety\nNot available if sneak check was used on ENEMY"
-          }
-        ]
+        "type": "Enemy",
+        "details": "You must overcome the enemy to rescue the ally. Depending on the outcome, you may receive REWARD as loot."
       },
       {
         "type": "Ally",
-        "options": [
-          {
-            "ability": "talk",
-            "difficulty": "easy",
-            "description": "Ask for a reward for saving them"
-          }
-        ]
+        "details": "You must convince the ally to join you."
       }
     ]
   },
   {
-    "name": "Beast Ambush",
-    "description": "BEAST has cornered ENEMY in a dead end. How do you handle it?",
+    "name": "Beast Trouble",
+    "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
+    "gm_notes": "ENEMY is currently cornered by the beast. Decide on the circumstance (example, pet turned on master, trapper got cornered, etc.).",
     "flow": [
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "talk",
-            "difficulty": "easy",
-            "description": "Convince them to help\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
-          }
-        ]
+        "type": "Investigation",
+        "details": "You can assess the scene and figure out what's going on."
       },
       {
         "type": "Beast",
-        "options": [
-          {
-            "ability": "think",
-            "difficulty": "medium",
-            "description": "Distract the beast to allow escape"
-          }
-        ]
+        "details": "You must overcome the beast."
       },
       {
         "type": "Enemy",
-        "options": [
-            {
-              "ability": "talk",
-              "difficulty": "medium",
-              "description": "Ask for a reward for saving them"
-            }
-        ]
+        "details": "You can overcome the enemy. If successful, you receive REWARD."
       }
     ]
   },
   {
     "name": "Ally Quest",
-    "description": "ALLY needs his treasure back from BEAST's lair. Can you convince them you can help?",
+    "public_description": "ALLY is seeking brave souls to recover a lost treasure from BEAST's lair. REWARD is offered for its return.",
+    "gm_notes": "Ally won't reveal LOCATION until they decide you're the one for the job. There is more treasure than what they seek.",
     "flow": [
       {
         "type": "Ally",
-        "options": []
-      },
-      {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "talk",
-            "difficulty": "medium",
-            "description": "Convince the ally to help\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
-          }
-        ]
+        "details": "You must convince ALLY that you're the one for the job."
       },
       {
         "type": "Beast",
-        "options": []
+        "details": "You must overcome BEAST to reclaim the treasure and bring it back to ALLY."
+      },
+      {
+        "type": "Loot",
+        "details": "You can find additional REWARD as you explore the area."
       }
     ]
   },
   {
-    "name": "Fresh Tracks",
-    "description": "You spot fresh BEAST tracks on the path you recall a reward posted for it. What do you do?",
+    "name": "Beast Trouble",
+    "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
+    "gm_notes": "Depending on how you deal with the beast there may be no reward. If befriended the beast may lead them to an alternate reward.",
     "flow": [
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "search",
-            "difficulty": "easy",
-            "description": "Follow the tracks to find the beast"
-          },
-          {
-            "ability": "think",
-            "difficulty": "easy",
-            "description": "Predict its location based its lore"
-          }
-        ]
+        "type": "Track",
+        "details": "You must follow the tracks to the beast's lair."
       },
       {
         "type": "Beast",
-        "options": []
+        "details": "Players must overcome the beast and secure proof that it's has been dealt with to claim the reward."
       }
     ]
   },
   {
     "name": "Captured Beast",
-    "description": "ENEMY has captured BEAST and locked it in a cage. Can you free it?",
+    "public_description": "My BEAST has gone missing. REWARD for its safe return. Last seen near LOCATION.",
+    "gm_notes": "Beast was captured by ENEMY and is being held in a cage.",
     "flow": [
       {
         "type": "Enemy",
-        "options": []
+        "details": "You must overcome the captors to gain access to the cage. Depending on outcome you may receive REWARD as loot."
       },
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "search",
-            "difficulty": "medium",
-            "description": "Find the key to free the beast"
-          },
-          {
-            "ability": "sneak",
-            "difficulty": "medium",
-            "description": "Sneak into the cage and free the beast"
-          },
-          {
-            "ability": "fight",
-            "difficulty": "hard",
-            "description": "Break the cage open by force\nNot available if sneak check was used on ENEMY"
-          }
-        ]
+        "type": "Cage",
+        "details": "You must figure out how to open the cage."
       },
       {
         "type": "Beast",
-        "options": []
+        "details": "You must earn the beast's trust to return it safely to its master."
       }
     ]
   },
   {
-    "name": "Ally Trapped",
-    "description": "ALLY is trapped in BEAST lair. Can you rescue them?",
+    "name": "Ally Rescue",
+    "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
+    "gm_notes": "Ally is trapped in BEAST lair. Determine the circumstance (exploration gone wrong, captured by beast, etc.)",
     "flow": [
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "talk",
-            "difficulty": "easy",
-            "description": "Convince the ally to help you\n+1 to BEAST check if successful\nContinue to BEAST check on fail"
-          }
-        ]
+        "type": "Investigation",
+        "details": "You must figure out what happened and locate the lair."
       },
       {
         "type": "Beast",
-        "options": []
+        "details": "Players must overcome or distract BEAST long enough to extract ALLY from the lair."
       },
       {
         "type": "Ally",
-        "options": [
-          {
-            "ability": "talk",
-            "difficulty": "easy",
-            "description": "Ask for a reward for saving them"
-          }
-        ]
+        "details": "You must convince the ally to join you."
       }
     ]
   },
   {
-    "name": "Battle Royale",
-    "description": "ENEMY is in a pitched battle with ENEMY. How do you want to get involved?",
+    "name": "Battle",
+    "public_description": "ENEMY and ENEMY forces are clashing at LOCATION, and the fighting threatens everyone nearby. REWARD is offered to anyone who can end the conflict.",
+    "gm_notes": "Players can join with one to overcome the other, take on both, try to negotiate peace, or find another way to resolve the conflict.",
     "flow": [
       {
-        "type": "Encounter",
-        "options": [
-          {
-            "ability": "think",
-            "difficulty": "easy",
-            "description": "Wait to see who wins\nSkip the next ENEMY check\nFace the ENEMY with higher fight"
-          },
-          {
-            "ability": "sneak",
-            "difficulty": "easy",
-            "description": "Sneak away from the battle\nSkip both ENEMY checks\nNo reward for encounter"
-          },
-          {
-            "difficulty": "auto",
-            "description": "Join the battle"
-          }
-        ]
+        "type": "Assess",
+        "details": "You can assess the situation and decide how to approach it."
       },
       {
         "type": "Enemy",
-        "options": [
-            {
-              "ability": "talk",
-              "difficulty": "easy",
-              "description": "Convince them to team up\n+1 to next ENEMY check on success"
-            }
-        ]
+        "details": "You must deal with the first ENEMY force."
       },
       {
         "type": "Enemy",
-        "options": []
+        "details": "You must deal with the second ENEMY force."
       }
     ]
   },
   {
     "name": "Friendly Challenge",
-    "description": "ALLY challenges you to a friendly contest.",
+    "public_description": "ALLY has issued a public challenge. REWARD to any one bold enough to meet them in friendly competition.",
+    "gm_notes": "ALLY is testing the party's character, skill, or worthiness for future work. Winning cleanly leads to another opportunity. Skip convincing the ally if the quest calls for it.",
     "flow": [
       {
         "type": "Ally",
-        "options": [
-          {
-            "ability": "fight",
-            "description": "Accept a wrestling match"
-          },
-          {
-            "ability": "think",
-            "description": "Solve riddles in the contest"
-          }
-        ]
+        "details": "You must take part in ALLY's chosen contest and prove yourself through strength, wit, or discipline. Ally will choose the nature of the contest."
       }
     ]
   },
   {
-    "name": "Bridge Guard",
-    "description": "ENEMY has setup post at a bridge and demand a toll. How will you get across the river?",
+    "name": "Recover Location",
+    "public_description": "ENEMY has seized LOCATION and driven out ALLY. REWARD is offered to anyone who drives them out.",
+    "gm_notes": "Enemy has set traps around the area.",
     "flow": [
       {
+        "type": "Ally",
+        "details": "Players must deal with traps set by the enemy."
+      },
+      {
+        "type": "Location",
+        "details": "You must deal with traps set by the enemy."
+      },
+      {
         "type": "Enemy",
-        "options": [
-          {
-            "difficulty": "auto",
-            "description": "Pay the toll\nGive up one treasure\nNo reward for encounter"
-          },
-          {
-            "ability": "search",
-            "difficulty": "medium",
-            "description": "Find another way across the river."
-          }
-        ]
+        "details": "You must overcome the ENEMY. Depending on how this is done you may receive REWARD as loot."
       }
     ]
   }

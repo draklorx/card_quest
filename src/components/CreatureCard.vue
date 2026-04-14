@@ -1,5 +1,9 @@
 <template>
-  <Card :type="type" :backgroundImage="cardBackground">
+  <Card
+    :type="type"
+    :backgroundImage="cardBackground"
+    :backgroundPositionY="artOffset"
+  >
     <div class="ai-badge" aria-label="AI generated art disclaimer">ai</div>
     <div class="bottom-overlay" :style="parchmentStyle">
       <div class="card-title">{{ item.name }}</div>
@@ -33,7 +37,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import Card from './Card.vue'
-import Option from './Option.vue'
 
 const abilityIcons = {
   fight: new URL('../assets/icon_ability_fight.png', import.meta.url).href,
@@ -66,6 +69,7 @@ const props = defineProps<{
   item: {
     name: string
     image?: string
+    offset?: string
     abilities: Ability[]
     options?: Option[]
   }
@@ -76,6 +80,8 @@ const cardBackground = computed(() => {
   if (!props.item.image) return ''
   return new URL(`../assets/${props.item.image}`, import.meta.url).href
 })
+
+const artOffset = computed(() => props.item.offset)
 
 const parchmentBackground = new URL('../assets/parchment_from_bottom_bg.png', import.meta.url).href
 const parchmentStyle = computed(() => ({
@@ -120,8 +126,8 @@ const difficultyIcon = (difficulty?: string) => {
 }
 .ability-icon,
 .difficulty-icon {
-  width: 0.33in;
-  height: 0.33in;
+  width: 0.3in;
+  height: 0.3in;
   object-fit: contain;
 }
 
@@ -129,8 +135,7 @@ const difficultyIcon = (difficulty?: string) => {
   margin-top: auto;
   display: flex;
   flex-direction: column;
-  padding: 0.16in;
-  padding-top: .25in;
+  padding: 0.25in;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,7 +162,7 @@ const difficultyIcon = (difficulty?: string) => {
 }
 
 .card-title {
-  font-size: 1.05em;
+  font-size: 11pt;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0.05in;
