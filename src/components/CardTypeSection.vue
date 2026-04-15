@@ -3,9 +3,9 @@
     <div class="card-grid">
       <component
         :is="cardComponent"
-        v-for="item in items"
-        :key="item.name"
-        :item="item"
+        v-for="card in cards"
+        :key="card.id"
+        :card="card"
         :type="type"
       />
     </div>
@@ -13,8 +13,8 @@
   <section :class="['card-type-section', 'card-section--break']">
     <div class="card-grid">
       <Card
-        v-for="index in items.length"
-        :key="index"
+        v-for="card in cards"
+        :key="card.id"
         :type="type"
         :backgroundImage="backgroundImage"
         backgroundSize="cover"
@@ -29,7 +29,7 @@ import { computed } from 'vue'
 import Card from './Card.vue'
 
 type CardTypeSectionProps = {
-  items: Array<Record<string, any>>
+  cards: Array<Record<string, any>>
   type: 'ally' | 'beast' | 'enemy' | 'encounter' | 'location'
   cardComponent: any
 }

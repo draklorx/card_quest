@@ -6,8 +6,8 @@
   >
     <AIBadge/>
     <BottomOverlay>
-      <CardTitle>{{ item.name }}</CardTitle>
-      <Abilities :abilities="item.abilities"/>
+      <CardTitle>{{ card.name }}</CardTitle>
+      <Abilities :abilities="card.abilities"/>
     </BottomOverlay>
   </Card>
 </template>
@@ -22,14 +22,14 @@ import BottomOverlay from './BottomOverlay.vue'
 import Abilities from './Abilities.vue'
 
 const props = defineProps<{
-  item: EntityCardData
+  card: EntityCardData
   type: string
 }>()
 
 const cardBackground = computed(() => {
-  if (!props.item.image) return ''
-  return new URL(`../assets/${props.item.image}`, import.meta.url).href
+  if (!props.card.image) return ''
+  return new URL(`../assets/${props.card.image}`, import.meta.url).href
 })
 
-const artOffset = computed(() => props.item.offset)
+const artOffset = computed(() => props.card.offset)
 </script>

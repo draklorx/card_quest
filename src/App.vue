@@ -2,14 +2,14 @@
   <div id="app">
     <CardTypeSection
       title="Allies"
-      :items="allies"
+      :cards="allies"
       type="ally"
       :cardComponent="EntityCard"
     />
 
     <CardTypeSection
       title="Beasts"
-      :items="beasts"
+      :cards="beasts"
       type="beast"
       :cardComponent="EntityCard"
       pageBreak
@@ -17,7 +17,7 @@
 
     <CardTypeSection
       title="Enemies"
-      :items="enemies"
+      :cards="enemies"
       type="enemy"
       :cardComponent="EntityCard"
       pageBreak
@@ -25,7 +25,7 @@
 
     <CardTypeSection
       title="Locations"
-      :items="locations"
+      :cards="locations"
       type="location"
       :cardComponent="EntityCard"
       pageBreak
@@ -33,7 +33,7 @@
 
     <CardTypeSection
       title="Encounters"
-      :items="encounters"
+      :cards="encounters"
       type="encounter"
       :cardComponent="EncounterCard"
       pageBreak

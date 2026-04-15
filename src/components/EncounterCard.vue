@@ -1,14 +1,14 @@
 <template>
   <Card :type="type">
     <div class="encounter-wrapper" :style="parchmentStyle">
-      <CardTitle>{{ item.name }}</CardTitle>
-      <div class="encounter-description">{{ item.public_description }}</div>
+      <CardTitle>{{ card.name }}</CardTitle>
+      <div class="encounter-description">{{ card.public_description }}</div>
       <div class="card-gm-notes">
         <span class="card-section-header">GM Notes:</span>
-        {{ item.gm_notes }}
+        {{ card.gm_notes }}
       </div>
       <div class="card-flow">
-        <div v-for="(step, index) in item.flow" :key="index" class="card-flow-step">
+        <div v-for="(step, index) in card.flow" :key="index" class="card-flow-step">
           <span class="card-section-header">{{ step.type }}:</span> {{ step.details }}
         </div>
       </div>
@@ -22,7 +22,7 @@ import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
 
 const props = defineProps<{
-  item: {
+  card: {
     name: string
     public_description: string
     gm_notes: string
