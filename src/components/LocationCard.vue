@@ -40,11 +40,11 @@ import { computed } from 'vue'
 import Card from './Card.vue'
 
 const abilityIcons = {
-  fight: new URL('../assets/icon_ability_fight.png', import.meta.url).href,
-  search: new URL('../assets/icon_ability_search.png', import.meta.url).href,
-  sneak: new URL('../assets/icon_ability_sneak.png', import.meta.url).href,
-  talk: new URL('../assets/icon_ability_talk.png', import.meta.url).href,
-  think: new URL('../assets/icon_ability_think.png', import.meta.url).href,
+  fight: new URL('../assets/icons/icon_ability_fight.png', import.meta.url).href,
+  search: new URL('../assets/icons/icon_ability_search.png', import.meta.url).href,
+  sneak: new URL('../assets/icons/icon_ability_sneak.png', import.meta.url).href,
+  talk: new URL('../assets/icons/icon_ability_talk.png', import.meta.url).href,
+  think: new URL('../assets/icons/icon_ability_think.png', import.meta.url).href,
 }
 
 type Ability = {

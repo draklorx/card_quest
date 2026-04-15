@@ -22,18 +22,18 @@
 
 <script setup lang="ts">
 const abilityIcons = {
-  fight: new URL('../assets/icon_ability_fight.png', import.meta.url).href,
-  search: new URL('../assets/icon_ability_search.png', import.meta.url).href,
-  sneak: new URL('../assets/icon_ability_sneak.png', import.meta.url).href,
-  talk: new URL('../assets/icon_ability_talk.png', import.meta.url).href,
-  think: new URL('../assets/icon_think.png', import.meta.url).href,
+  fight: new URL('../assets/icons/icon_ability_fight.png', import.meta.url).href,
+  search: new URL('../assets/icons/icon_ability_search.png', import.meta.url).href,
+  sneak: new URL('../assets/icons/icon_ability_sneak.png', import.meta.url).href,
+  talk: new URL('../assets/icons/icon_ability_talk.png', import.meta.url).href,
+  think: new URL('../assets/icons/icon_ability_think.png', import.meta.url).href,
 }
 
 const difficultyIcons = {
-  auto: new URL('../assets/icon_difficulty_auto.png', import.meta.url).href,
-  easy: new URL('../assets/icon_difficulty_easy.png', import.meta.url).href,
-  medium: new URL('../assets/icon_difficulty_medium.png', import.meta.url).href,
-  hard: new URL('../assets/icon_difficulty_hard.png', import.meta.url).href,
+  auto: new URL('../assets/icons/icon_difficulty_auto.png', import.meta.url).href,
+  easy: new URL('../assets/icons/icon_difficulty_easy.png', import.meta.url).href,
+  medium: new URL('../assets/icons/icon_difficulty_medium.png', import.meta.url).href,
+  hard: new URL('../assets/icons/icon_difficulty_hard.png', import.meta.url).href,
 }
 
 type Props = {
