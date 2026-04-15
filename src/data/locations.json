@@ -1,5 +1,6 @@
 [
     {
+        "id": "efec9d16-ac14-4de2-87b0-8ae4ea72dfd1",
         "name": "Abandoned Village",
         "image": "locations/abandoned_village.png",
         "offset": "-0.3in",
@@ -12,6 +13,7 @@
         ]
     },
     {
+        "id": "747e1990-ceb0-4598-8781-3bf045197c52",
         "name": "Old Bridge",
         "image": "locations/old_bridge.png",
         "offset": "-0.2in",
@@ -24,6 +26,7 @@
         ]
     },
     {
+        "id": "1021858c-c2c2-48f1-b0e7-cd37a9a6023b",
         "name": "Dark Forest",
         "image": "locations/dark_forest.png",
         "abilities": [
@@ -35,6 +38,7 @@
         ]
     },
     {
+        "id": "5842aca0-3cef-4872-a662-634980b0dbc4",
         "name": "Ancient Ruins",
         "image": "locations/ancient_ruins.png",
         "offset": "-0.1in",
@@ -47,6 +51,7 @@
         ]
     },
     {
+        "id": "614e20dd-90aa-4588-915c-bc60c3a86690",
         "name": "Echo Cave",
         "image": "locations/echo_cave.png",
         "abilities": [
@@ -58,6 +63,7 @@
         ]
     },
     {
+        "id": "55a7fe7c-3882-4231-b34d-863ddbb611b8",
         "name": "Haunted Mansion",
         "image": "locations/haunted_mansion.png",
         "abilities": [
@@ -69,6 +75,7 @@
         ]
     },
     {
+        "id": "019b0f83-32d1-4853-a314-2c587fd80563",
         "name": "Mountain Pass",
         "image": "locations/mountain_pass.png",
         "abilities": [
@@ -80,6 +87,7 @@
         ]
     },
     {
+        "id": "c53ccf91-f1f7-4016-90e5-93f4baeb5205",
         "name": "Fire Swamp",
         "image": "locations/fire_swamp.png",
         "offset": "-0.3in",
@@ -92,6 +100,7 @@
         ]
     },
     {
+        "id": "3ad52f2e-9815-4f65-b658-890bda21c227",
         "name": "Calming Grove",
         "image": "locations/calming_grove.png",
         "offset": "-0.3in",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "5ef9fae5-1688-486f-890f-40e2ccbd26e6",
     "image": "enemies/bandit.png",
     "name": "Bandits",
     "abilities": [
@@ -11,9 +12,10 @@
     ]
   },
   {
+    "id": "b2c3d4e5-f6g7-8h9i-0j1k-2l3m4n5o6p7q",
+    "name": "Orcs",
     "image": "enemies/orc.png",
     "offset": "-0.4in",
-    "name": "Orcs",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -23,8 +25,9 @@
     ]
   },
   {
-    "image": "enemies/goblin.png",
+    "id": "c3d4e5f6-g7h8-9i0j-1k2l-3m4n5o6p7q8r",
     "name": "Goblins",
+    "image": "enemies/goblin.png",
     "offset": "-0.1in",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
@@ -35,8 +38,9 @@
     ]
   },
   {
-    "image": "enemies/ogre.png",
+    "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
     "name": "Ogre",
+    "image": "enemies/ogre.png",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "easy"},
@@ -46,8 +50,9 @@
     ]
   },
   {
-    "image": "enemies/harpy.png",
+    "id": "e5f6g7h8-i9j0-1k2l-3m4n-5o6p7q8r9s0t",
     "name": "Harpy",
+    "image": "enemies/harpy.png",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "easy"},
@@ -57,9 +62,10 @@
     ]
   },
   {
+    "id": "f6g7h8i9-j0k1-2l3m-4n5o-6p7q8r9s0t1u",
+    "name": "Hag",
     "image": "enemies/hag.png",
     "offset": "-0.3in",
-    "name": "Hag",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -69,8 +75,9 @@
     ]
   },
   {
-    "image": "enemies/kobold.png",
+    "id": "g7h8i9j0-k1l2-3m4n-5o6p-7q8r9s0t1u2v",
     "name": "Kobolds",
+    "image": "enemies/kobold.png",
     "offset": "-0.3in",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
@@ -81,8 +88,9 @@
     ]
   },
   {
-    "image": "enemies/skeleton.png",
+    "id": "h8i9j0k1-l2m3-4n5o-6p7q-8r9s0t1u2v3w",
     "name": "Skeletons",
+    "image": "enemies/skeleton.png",
     "offset": "-0.6in",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
@@ -93,8 +101,9 @@
     ]
   },
   {
-    "image": "enemies/wraith.png",
+    "id": "i9j0k1l2-m3n4-5o6p-7q8r-9s0t1u2v3w4x",
     "name": "Wraith",
+    "image": "enemies/wraith.png",
     "abilities": [
       {"ability": "fight", "difficulty": "impossible"},
       {"ability": "search", "difficulty": "medium"},

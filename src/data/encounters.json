@@ -1,5 +1,6 @@
 [
   {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
     "name": "Ally Rescue",
     "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
     "gm_notes": "ALLY was captured by ENEMY and is being held in their camp.",
@@ -19,6 +20,7 @@
     ]
   },
   {
+    "id": "b7be652c-7472-40b4-a9ea-d2ea146ed8e9",
     "name": "Beast Trouble",
     "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
     "gm_notes": "ENEMY is currently cornered by the beast. Decide on the circumstance (example, pet turned on master, trapper got cornered, etc.).",
@@ -38,6 +40,7 @@
     ]
   },
   {
+    "id": "3062a494-603d-4a19-96e9-a33126bc65c7",
     "name": "Ally Quest",
     "public_description": "ALLY is seeking brave souls to recover a lost treasure from BEAST's lair. REWARD is offered for its return.",
     "gm_notes": "Ally won't reveal LOCATION until they decide you're the one for the job. There is more treasure than what they seek.",
@@ -57,6 +60,7 @@
     ]
   },
   {
+    "id": "7e524146-5ad8-4518-b66a-2dd2977b4fee",
     "name": "Beast Trouble",
     "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
     "gm_notes": "Depending on how you deal with the beast there may be no reward. If befriended the beast may lead them to an alternate reward.",
@@ -72,6 +76,7 @@
     ]
   },
   {
+    "id": "860d5167-dc31-4636-8949-5c88b2407189",
     "name": "Captured Beast",
     "public_description": "My BEAST has gone missing. REWARD for its safe return. Last seen near LOCATION.",
     "gm_notes": "Beast was captured by ENEMY and is being held in a cage.",
@@ -91,6 +96,7 @@
     ]
   },
   {
+    "id": "eacf21e3-25d3-4714-b3e8-d0a7807f1264",
     "name": "Ally Rescue",
     "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
     "gm_notes": "Ally is trapped in BEAST lair. Determine the circumstance (exploration gone wrong, captured by beast, etc.)",
@@ -110,6 +116,7 @@
     ]
   },
   {
+    "id": "73b37744-c6d4-4247-8a86-4fdb842ff19e",
     "name": "Battle",
     "public_description": "ENEMY and ENEMY forces are clashing at LOCATION, and the fighting threatens everyone nearby. REWARD is offered to anyone who can end the conflict.",
     "gm_notes": "Players can join with one to overcome the other, take on both, try to negotiate peace, or find another way to resolve the conflict.",
@@ -129,6 +136,7 @@
     ]
   },
   {
+    "id": "995a50d5-4d50-4e85-8e66-440dd15e3e75",
     "name": "Friendly Challenge",
     "public_description": "ALLY has issued a public challenge. REWARD to any one bold enough to meet them in friendly competition.",
     "gm_notes": "ALLY is testing the party's character, skill, or worthiness for future work. Winning cleanly leads to another opportunity. Skip convincing the ally if the quest calls for it.",
@@ -140,6 +148,7 @@
     ]
   },
   {
+    "id": "ecd9b02c-6816-4d1e-8493-53860c140735",
     "name": "Recover Location",
     "public_description": "ENEMY has seized LOCATION and driven out ALLY. REWARD is offered to anyone who drives them out.",
     "gm_notes": "Enemy has set traps around the area.",

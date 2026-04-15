@@ -1,8 +1,9 @@
 [
   {
+    "id": "95f611d1-8624-4991-ae95-1f515a020047",
+    "name": "Elf",
     "image": "allies/elf.png",
     "offset": "-0.2in",
-    "name": "Elf",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "hard"},
@@ -12,9 +13,10 @@
     ]
   },
   {
+    "id": "d1c9b8e5-3a2e-4c9b-9f1e-2a7b8c9d0e5f",
+    "name": "Dwarf",
     "image": "allies/dwarf.png",
     "offset": "-0.2in",
-    "name": "Dwarf",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "easy"},
@@ -24,9 +26,10 @@
     ]
   },
   {
+    "id": "a3b2c1d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Pixie",
     "image": "allies/pixie.png",
     "offset": "-0.1in",
-    "name": "Pixie",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "hard"},
@@ -36,8 +39,9 @@
     ]
   },
   {
-    "image": "allies/treent.png",
+    "id": "b4c3d2e1-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
     "name": "Treent",
+    "image": "allies/treent.png",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -47,8 +51,9 @@
     ]
   },
   {
-    "image": "allies/halfling.png",
+    "id": "c5d4e3f2-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
     "name": "Halfling",
+    "image": "allies/halfling.png",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "hard"},
@@ -58,8 +63,9 @@
     ]
   },
   {
-    "image": "allies/satyr.png",
+    "id": "d6e5f4g3-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
     "name": "Satyr",
+    "image": "allies/satyr.png",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "medium"},
@@ -69,9 +75,10 @@
     ]
   },
   {
-    "image": "allies/tinker_gnome.png",
+    "id": "e7f6g5h4-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+    "name": "Gnome",
+    "image": "allies/gnome.png",
     "offset": "-0.2in",
-    "name": "Tinker Gnome",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "medium"},
@@ -81,9 +88,10 @@
     ]
   },
   {
+    "id": "f8g7h6i5-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "name": "Centaur",
     "image": "allies/centaur.png",
     "offset": "-0.15in",
-    "name": "Centaur",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "medium"},
@@ -93,9 +101,10 @@
     ]
   },
   {
+    "id": "g9h8i7j6-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+    "name": "Dryad",
     "image": "allies/dryad.png",
     "offset": "-0.1in",
-    "name": "Dryad",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "hard"},

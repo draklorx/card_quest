@@ -1,7 +1,8 @@
 [
   {
-    "image": "beasts/dire_wolf.png",
+    "id": "25031d5c-3a08-4375-bbcb-0a186e8d11a6",
     "name": "Dire Wolf",
+    "image": "beasts/dire_wolf.png",
     "offset": "-0.35in",
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
@@ -12,9 +13,10 @@
     ]
   },
   {
+    "id": "b2c3d4e5-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+    "name": "Giant Spider",
     "image": "beasts/giant_spider.png",
     "offset": "-0.4in",
-    "name": "Giant Spider",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -24,9 +26,10 @@
     ]
   },
   {
+    "id": "c3d4e5f6-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+    "name": "Troll",
     "image": "beasts/troll.png",
     "offset": "-0.4in",
-    "name": "Troll",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -36,9 +39,10 @@
     ]
   },
   {
+    "id": "d4e5f6g7-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+    "name": "Owlbear",
     "image": "beasts/owlbear.png",
     "offset": "-0.25in",
-    "name": "Owlbear",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -48,9 +52,10 @@
     ]
   },
   {
+    "id": "e5f6g7h8-9a0b-1c2d-3e4f-5a6b7c8d9e0f",
+    "name": "Unicorn",
     "image": "beasts/unicorn.png",
     "offset": "-0.1in",
-    "name": "Unicorn",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -60,9 +65,10 @@
     ]
   },
   {
+    "id": "f6g7h8i9-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+    "name": "Basilisk",
     "image": "beasts/basilisk.png",
     "offset": "-0.4in",
-    "name": "Basilisk",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -72,9 +78,10 @@
     ]
   },
   {
+    "id": "g7h8i9j0-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+    "name": "Gryphon",
     "image": "beasts/gryphon.png",
     "offset": "-0.05in",
-    "name": "Gryphon",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -84,9 +91,10 @@
     ]
   },
   {
+    "id": "h8i9j0k1-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
+    "name": "A \"Perfectly Normal\" Duck",
     "image": "beasts/duck.png",
     "offset": "-0.25in",
-    "name": "A \"Perfectly Normal\" Duck",
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "hard"},
@@ -96,9 +104,10 @@
     ]
   },
   {
+    "id": "i9j0k1l2-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+    "name": "Giant Rat",
     "image": "beasts/giant_rat.png",
     "offset": "-0.45in",
-    "name": "Giant Rat",
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "medium"},
