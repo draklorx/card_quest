@@ -59,19 +59,12 @@ type Ability = {
   difficulty?: string
 }
 
-type Option = {
-  ability?: string
-  description?: string
-  option?: string
-}
-
 const props = defineProps<{
   item: {
     name: string
     image?: string
     offset?: string
     abilities: Ability[]
-    options?: Option[]
   }
   type: string
 }>()
@@ -110,9 +103,6 @@ const difficultyIcon = (difficulty?: string) => {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.options-footer {
-  margin-bottom: 0;
 }
 .ability-list {
   display: flex;

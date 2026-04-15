@@ -95,7 +95,6 @@ type EntityCard = {
   offset?: string
   name: string
   abilities: CardAbility[]
-  options: CardAbility[]
 }
 
 type EncounterCard = {
@@ -165,8 +164,5 @@ body {
 .card-flow {
   display: grid;
   gap: 0in;
-}
-.option-description {
-  margin-left: 0.07in;
 }
 </style>
