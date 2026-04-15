@@ -1,5 +1,5 @@
 <template>
-  <section :class="['card-type-section', 'card-section--break']">
+  <section class="card-type-section card-section-break">
     <div class="card-grid">
       <component
         :is="cardComponent"
@@ -10,15 +10,15 @@
       />
     </div>
   </section>
-  <section :class="['card-type-section', 'card-section--break']">
+  <section class="card-type-section card-section-break">
     <div class="card-grid">
       <Card
         v-for="card in cards"
         :key="card.id"
         :type="type"
-        :backgroundImage="backgroundImage"
-        backgroundSize="cover"
-        backgroundPosition="center"
+        :background-image="backgroundImage"
+        background-size="cover"
+        background-position="center"
       />
     </div>
   </section>
@@ -27,12 +27,23 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import Card from './Card.vue'
+import { EncounterCardData, EntityCardData } from '../types/cards'
+type EntityCardComponent = typeof import('./EntityCard.vue')['default']
+type EncounterCardComponent = typeof import('./EncounterCard.vue')['default']
 
-type CardTypeSectionProps = {
-  cards: Array<Record<string, any>>
-  type: 'ally' | 'beast' | 'enemy' | 'encounter' | 'location'
-  cardComponent: any
+type EntitySectionProps = {
+  cards: EntityCardData[]
+  type: 'ally' | 'beast' | 'enemy' | 'location'
+  cardComponent: EntityCardComponent
 }
+
+type EncounterSectionProps = {
+  cards: EncounterCardData[]
+  type: 'encounter'
+  cardComponent: EncounterCardComponent
+}
+
+type CardTypeSectionProps = EntitySectionProps | EncounterSectionProps
 
 const backImages = {
   ally: new URL('../assets/cards/card_back_ally.png', import.meta.url).href,
@@ -52,7 +63,7 @@ const props = defineProps<CardTypeSectionProps>()
   margin-bottom: 0;
 }
 
-.card-section--break {
+.card-section-break {
   page-break-before: always;
   break-before: page;
 }

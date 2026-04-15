@@ -1,5 +1,10 @@
 <template>
-    <div class="ai-badge" aria-label="AI generated art disclaimer">ai</div>
+  <div 
+    class="ai-badge"
+    aria-label="AI generated art disclaimer"
+  >
+    ai
+  </div>
 </template>
 
 <style scoped>

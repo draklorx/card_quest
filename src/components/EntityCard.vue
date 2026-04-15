@@ -1,20 +1,20 @@
 <template>
   <Card
     :type="type"
-    :backgroundImage="cardBackground"
-    :backgroundPositionY="artOffset"
+    :background-image="cardBackground"
+    :background-position-y="artOffset"
   >
-    <AIBadge/>
+    <AIBadge />
     <BottomOverlay>
       <CardTitle>{{ card.name }}</CardTitle>
-      <Abilities :abilities="card.abilities"/>
+      <Abilities :abilities="card.abilities" />
     </BottomOverlay>
   </Card>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { EntityCard as EntityCardData } from '../types/cards'
+import type { EntityCardData as EntityCardData } from '../types/cards'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
 import AIBadge from './AIBadge.vue'

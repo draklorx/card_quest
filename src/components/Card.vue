@@ -1,5 +1,8 @@
 <template>
-  <div :class="cardClasses" :style="cardStyle">
+  <div 
+    :class="cardClasses" 
+    :style="cardStyle"
+  >
     <div class="card-content">
       <slot />
     </div>

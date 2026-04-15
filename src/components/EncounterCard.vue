@@ -1,14 +1,23 @@
 <template>
   <Card :type="type">
-    <div class="encounter-wrapper" :style="parchmentStyle">
+    <div
+      class="encounter-wrapper" 
+      :style="parchmentStyle"
+    >
       <CardTitle>{{ card.name }}</CardTitle>
-      <div class="encounter-description">{{ card.public_description }}</div>
+      <div class="encounter-description">
+        {{ card.public_description }}
+      </div>
       <div class="card-gm-notes">
         <span class="card-section-header">GM Notes:</span>
         {{ card.gm_notes }}
       </div>
       <div class="card-flow">
-        <div v-for="(step, index) in card.flow" :key="index" class="card-flow-step">
+        <div 
+          v-for="(step, index) in card.flow" 
+          :key="index"
+          class="card-flow-step"
+        >
           <span class="card-section-header">{{ step.type }}:</span> {{ step.details }}
         </div>
       </div>
@@ -20,14 +29,10 @@
 import { computed } from 'vue'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
+import type { EncounterCardData } from '../types/cards'
 
-const props = defineProps<{
-  card: {
-    name: string
-    public_description: string
-    gm_notes: string
-    flow: Array<{ type: string; details: string }>
-  }
+defineProps<{
+  card: EncounterCardData
   type: string
 }>()
 

@@ -1,39 +1,39 @@
 <template>
-      <div class="abilities-footer">
-        <ul class="ability-list">
-          <li
-            v-for="ability in abilities"
-            :key="ability.ability"
-            class="ability-tile"
-          >
-            <img
-              v-if="ability.ability"
-              class="ability-icon"
-              :src="abilityIcon(ability.ability)"
-              :alt="ability.ability"
-            />
-            <img
-              v-if="ability.difficulty"
-              class="difficulty-icon"
-              :src="difficultyIcon(ability.difficulty)"
-              :alt="ability.difficulty"
-            />
-            <div
-              v-if="ability.modifier"
-              class="difficulty-modifer"
-              :aria-label="`Difficulty modifier ${ability.modifier}`"
-            >
-              {{ ability.modifier }}
-            </div>
-          </li>
-        </ul>
-      </div>
+  <div class="abilities-footer">
+    <ul class="ability-list">
+      <li
+        v-for="ability in abilities"
+        :key="ability.ability"
+        class="ability-tile"
+      >
+        <img
+          v-if="ability.ability"
+          class="ability-icon"
+          :src="abilityIcon(ability.ability)"
+          :alt="ability.ability"
+        >
+        <img
+          v-if="ability.difficulty"
+          class="difficulty-icon"
+          :src="difficultyIcon(ability.difficulty)"
+          :alt="ability.difficulty"
+        >
+        <div
+          v-if="ability.modifier"
+          class="difficulty-modifer"
+          :aria-label="`Difficulty modifier ${ability.modifier}`"
+        >
+          {{ ability.modifier }}
+        </div>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script setup lang="ts">
     import type { AbilityName, CardAbility, Difficulty } from '../types/cards'
 
-    const props = defineProps<{
+    defineProps<{
         abilities: CardAbility[]
     }>()
 

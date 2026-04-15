@@ -1,42 +1,33 @@
 <template>
   <div id="app">
     <CardTypeSection
-      title="Allies"
       :cards="allies"
       type="ally"
-      :cardComponent="EntityCard"
+      :card-component="EntityCard"
     />
 
     <CardTypeSection
-      title="Beasts"
       :cards="beasts"
       type="beast"
-      :cardComponent="EntityCard"
-      pageBreak
+      :card-component="EntityCard"
     />
 
     <CardTypeSection
-      title="Enemies"
       :cards="enemies"
       type="enemy"
-      :cardComponent="EntityCard"
-      pageBreak
+      :card-component="EntityCard"
     />
 
     <CardTypeSection
-      title="Locations"
       :cards="locations"
       type="location"
-      :cardComponent="EntityCard"
-      pageBreak
+      :card-component="EntityCard"
     />
 
     <CardTypeSection
-      title="Encounters"
       :cards="encounters"
       type="encounter"
-      :cardComponent="EncounterCard"
-      pageBreak
+      :card-component="EncounterCard"
     />
   </div>
 </template>
@@ -45,7 +36,7 @@
 import CardTypeSection from './components/CardTypeSection.vue'
 import EntityCard from './components/EntityCard.vue'
 import EncounterCard from './components/EncounterCard.vue'
-import type { EncounterCardData, EntityCard as EntityCardData } from './types/cards'
+import type { EncounterCardData, EntityCardData } from './types/cards'
 import alliesData from './data/allies.json'
 import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'

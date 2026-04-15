@@ -1,5 +1,7 @@
 <template>
-    <div class="card-title"><slot /></div>
+  <div class="card-title">
+    <slot />
+  </div>
 </template>
 
 <style scoped>

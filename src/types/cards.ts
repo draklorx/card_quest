@@ -6,10 +6,10 @@ export type CardAbility = {
   ability?: AbilityName
   difficulty?: Difficulty
   modifier?: string
-  description?: string
 }
 
-export type EntityCard = {
+export type EntityCardData = {
+  id: string
   image?: string
   offset?: string
   name: string
@@ -22,6 +22,7 @@ export type EncounterFlowStep = {
 }
 
 export type EncounterCardData = {
+  id: string
   name: string
   public_description: string
   gm_notes: string

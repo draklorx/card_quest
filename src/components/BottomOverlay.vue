@@ -1,5 +1,10 @@
 <template>
-    <div class="bottom-overlay" :style="parchmentStyle"><slot /></div>
+  <div 
+    class="bottom-overlay" 
+    :style="parchmentStyle"
+  >
+    <slot />
+  </div>
 </template>
 <script setup lang="ts">
 import { computed } from 'vue'
