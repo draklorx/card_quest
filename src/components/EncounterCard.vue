@@ -1,8 +1,8 @@
 <template>
   <Card :type="type">
     <div class="encounter-wrapper" :style="parchmentStyle">
-      <div class="card-title">{{ item.name }}</div>
-      <div class="card-description">{{ item.public_description }}</div>
+      <CardTitle>{{ item.name }}</CardTitle>
+      <div class="encounter-description">{{ item.public_description }}</div>
       <div class="card-gm-notes">
         <span class="card-section-header">GM Notes:</span>
         {{ item.gm_notes }}
@@ -19,6 +19,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import Card from './Card.vue'
+import CardTitle from './CardTitle.vue'
 
 const props = defineProps<{
   item: {
@@ -51,6 +52,12 @@ const parchmentStyle = computed(() => ({
   box-sizing: border-box;
 }
 
+.encounter-description {
+  margin-bottom: 0.05in;
+  font-size: 9pt;
+  line-height: 1.3;
+}
+
 .card-gm-notes {
   margin-bottom: 0.06in;
   font-size: 8pt;
@@ -58,9 +65,9 @@ const parchmentStyle = computed(() => ({
   font-style: italic;
 }
 
-.card-gm-label {
-  font-weight: 700;
-  font-style: normal;
+.card-flow {
+  display: grid;
+  gap: 0in;
 }
 
 .card-flow-step {

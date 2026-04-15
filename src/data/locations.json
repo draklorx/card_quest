@@ -4,11 +4,11 @@
         "image": "locations/abandoned_village.png",
         "offset": "-0.3in",
         "abilities": [
-            {"ability": "fight", "difficulty": "-"},
-            {"ability": "search", "difficulty": "-1"},
-            {"ability": "think", "difficulty": "-"},
-            {"ability": "talk", "difficulty": "-"},
-            {"ability": "sneak", "difficulty": "+1"}
+            {"ability": "fight", "modifier": "-"},
+            {"ability": "search", "modifier": "-1"},
+            {"ability": "think", "modifier": "-"},
+            {"ability": "talk", "modifier": "-"},
+            {"ability": "sneak", "modifier": "+1"}
         ]
     },
     {
@@ -16,22 +16,22 @@
         "image": "locations/old_bridge.png",
         "offset": "-0.2in",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "+1"},
-            {"ability": "think", "difficulty": "-"},
-            {"ability": "talk", "difficulty": "-"},
-            {"ability": "sneak", "difficulty": "-1"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "think", "modifier": "-"},
+            {"ability": "talk", "modifier": "-"},
+            {"ability": "sneak", "modifier": "-1"}
         ]
     },
     {
         "name": "Dark Forest",
         "image": "locations/dark_forest.png",
         "abilities": [
-            {"ability": "fight", "difficulty": "-"},
-            {"ability": "search", "difficulty": "-1"},
-            {"ability": "think", "difficulty": "-"},
-            {"ability": "talk", "difficulty": "-"},
-            {"ability": "sneak", "difficulty": "+1"}
+            {"ability": "fight", "modifier": "-"},
+            {"ability": "search", "modifier": "-1"},
+            {"ability": "think", "modifier": "-"},
+            {"ability": "talk", "modifier": "-"},
+            {"ability": "sneak", "modifier": "+1"}
         ]
     },
     {
@@ -39,44 +39,44 @@
         "image": "locations/ancient_ruins.png",
         "offset": "-0.1in",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "-1"},
-            {"ability": "think", "difficulty": "-"},
-            {"ability": "talk", "difficulty": "-"},
-            {"ability": "sneak", "difficulty": "+1"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "-1"},
+            {"ability": "think", "modifier": "-"},
+            {"ability": "talk", "modifier": "-"},
+            {"ability": "sneak", "modifier": "+1"}
         ]
     },
     {
         "name": "Echo Cave",
         "image": "locations/echo_cave.png",
         "abilities": [
-            {"ability": "fight", "difficulty": "-"},
-            {"ability": "search", "difficulty": "+1"},
-            {"ability": "think", "difficulty": "-1"},
-            {"ability": "talk", "difficulty": "-1"},
-            {"ability": "sneak", "difficulty": "-1"}
+            {"ability": "fight", "modifier": "-"},
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "think", "modifier": "-1"},
+            {"ability": "talk", "modifier": "-1"},
+            {"ability": "sneak", "modifier": "-1"}
         ]
     },
     {
         "name": "Haunted Mansion",
         "image": "locations/haunted_mansion.png",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "-1"},
-            {"ability": "think", "difficulty": "-1"},
-            {"ability": "talk", "difficulty": "-"},
-            {"ability": "sneak", "difficulty": "-"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "-1"},
+            {"ability": "think", "modifier": "-1"},
+            {"ability": "talk", "modifier": "-"},
+            {"ability": "sneak", "modifier": "-"}
         ]
     },
     {
         "name": "Mountain Pass",
         "image": "locations/mountain_pass.png",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "+1"},
-            {"ability": "think", "difficulty": "-"},
-            {"ability": "talk", "difficulty": "-1"},
-            {"ability": "sneak", "difficulty": "+1"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "think", "modifier": "-"},
+            {"ability": "talk", "modifier": "-1"},
+            {"ability": "sneak", "modifier": "+1"}
         ]
     },
     {
@@ -84,11 +84,11 @@
         "image": "locations/fire_swamp.png",
         "offset": "-0.3in",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "-1"},
-            {"ability": "think", "difficulty": "-1"},
-            {"ability": "talk", "difficulty": "-1"},
-            {"ability": "sneak", "difficulty": "-1"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "-1"},
+            {"ability": "think", "modifier": "-1"},
+            {"ability": "talk", "modifier": "-1"},
+            {"ability": "sneak", "modifier": "-1"}
         ]
     },
     {
@@ -96,11 +96,11 @@
         "image": "locations/calming_grove.png",
         "offset": "-0.3in",
         "abilities": [
-            {"ability": "fight", "difficulty": "-1"},
-            {"ability": "search", "difficulty": "-"},
-            {"ability": "think", "difficulty": "+1"},
-            {"ability": "talk", "difficulty": "+1"},
-            {"ability": "sneak", "difficulty": "-"}
+            {"ability": "fight", "modifier": "-1"},
+            {"ability": "search", "modifier": "-"},
+            {"ability": "think", "modifier": "+1"},
+            {"ability": "talk", "modifier": "+1"},
+            {"ability": "sneak", "modifier": "-"}
         ]
     }
 ]

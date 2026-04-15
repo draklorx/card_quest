@@ -7,23 +7,11 @@
       :cardComponent="CreatureCard"
     />
 
-    <CardBackSection
-      title="Ally Backs"
-      type="ally"
-      pageBreak
-    />
-
     <CardTypeSection
       title="Beasts"
       :items="beasts"
       type="beast"
       :cardComponent="CreatureCard"
-      pageBreak
-    />
-
-    <CardBackSection
-      title="Beast Backs"
-      type="beast"
       pageBreak
     />
 
@@ -35,12 +23,6 @@
       pageBreak
     />
 
-    <CardBackSection
-      title="Enemy Backs"
-      type="enemy"
-      pageBreak
-    />
-
     <CardTypeSection
       title="Locations"
       :items="locations"
@@ -49,23 +31,11 @@
       pageBreak
     />
 
-    <CardBackSection
-      title="Location Backs"
-      type="location"
-      pageBreak
-    />
-    
     <CardTypeSection
       title="Encounters"
       :items="encounters"
       type="encounter"
       :cardComponent="EncounterCard"
-      pageBreak
-    />
-
-    <CardBackSection
-      title="Encounter Backs"
-      type="encounter"
       pageBreak
     />
 
@@ -121,48 +91,5 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1c2e30;
 }
-.card-type-section {
-  margin-bottom: 0;
-}
-.card-section--break {
-  page-break-before: always;
-  break-before: page;
-}
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 2.5in);
-  gap: 0in;
-  justify-content: start;
-}
-.card-title {
-  font-weight: 700;
-  margin-bottom: 0.12in;
-  text-align: center;
-  font-family: "Almendra SC", serif;
-  word-spacing:0.02in;
-}
-.card-subtitle {
-  font-size: 0.12in;
-  margin-bottom: 0.12in;
-  opacity: 0.85;
-}
-.card-description {
-  margin-bottom: 0.05in;
-  font-size: 9pt;
-  line-height: 1.3;
-}
-.card-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.12in;
-  line-height: 1.35;
-}
-.card-list li {
-  margin-bottom: 0in;
-}
-.card-flow {
-  display: grid;
-  gap: 0in;
-}
+
 </style>
