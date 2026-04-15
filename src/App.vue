@@ -4,14 +4,14 @@
       title="Allies"
       :items="allies"
       type="ally"
-      :cardComponent="CreatureCard"
+      :cardComponent="EntityCard"
     />
 
     <CardTypeSection
       title="Beasts"
       :items="beasts"
       type="beast"
-      :cardComponent="CreatureCard"
+      :cardComponent="EntityCard"
       pageBreak
     />
 
@@ -19,7 +19,7 @@
       title="Enemies"
       :items="enemies"
       type="enemy"
-      :cardComponent="CreatureCard"
+      :cardComponent="EntityCard"
       pageBreak
     />
 
@@ -27,7 +27,7 @@
       title="Locations"
       :items="locations"
       type="location"
-      :cardComponent="LocationCard"
+      :cardComponent="EntityCard"
       pageBreak
     />
 
@@ -38,47 +38,25 @@
       :cardComponent="EncounterCard"
       pageBreak
     />
-
   </div>
 </template>
 
 <script setup lang="ts">
 import CardTypeSection from './components/CardTypeSection.vue'
-import CardBackSection from './components/CardBackSection.vue'
-import CreatureCard from './components/CreatureCard.vue'
+import EntityCard from './components/EntityCard.vue'
 import EncounterCard from './components/EncounterCard.vue'
-import LocationCard from './components/LocationCard.vue'
+import type { EncounterCardData, EntityCard as EntityCardData } from './types/cards'
 import alliesData from './data/allies.json'
 import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'
 import encountersData from './data/encounters.json'
 import locationsData from './data/locations.json'
 
-type CardAbility = {
-  ability?: string
-  difficulty?: string
-  description?: string
-}
-
-type EntityCard = {
-  image?: string
-  offset?: string
-  name: string
-  abilities: CardAbility[]
-}
-
-type EncounterCard = {
-  name: string
-  public_description: string
-  gm_notes: string
-  flow: Array<{ type: string; details: string }>
-}
-
-const allies = alliesData as EntityCard[]
-const beasts = beastsData as EntityCard[]
-const enemies = enemiesData as EntityCard[]
-const encounters = encountersData as EncounterCard[]
-const locations = locationsData as EntityCard[]
+const allies = alliesData as EntityCardData[]
+const beasts = beastsData as EntityCardData[]
+const enemies = enemiesData as EntityCardData[]
+const encounters = encountersData as EncounterCardData[]
+const locations = locationsData as EntityCardData[]
 </script>
 
 <style>
@@ -91,5 +69,4 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1c2e30;
 }
-
 </style>

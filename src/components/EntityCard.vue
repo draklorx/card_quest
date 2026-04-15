@@ -14,24 +14,15 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { EntityCard as EntityCardData } from '../types/cards'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
 import AIBadge from './AIBadge.vue'
 import BottomOverlay from './BottomOverlay.vue'
 import Abilities from './Abilities.vue'
 
-type Ability = {
-  ability?: string
-  difficulty?: string
-}
-
 const props = defineProps<{
-  item: {
-    name: string
-    image?: string
-    offset?: string
-    abilities: Ability[]
-  }
+  item: EntityCardData
   type: string
 }>()
 
@@ -41,5 +32,4 @@ const cardBackground = computed(() => {
 })
 
 const artOffset = computed(() => props.item.offset)
-
 </script>

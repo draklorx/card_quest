@@ -31,18 +31,13 @@
 </template>
 
 <script setup lang="ts">
-
-    type Ability = {
-    ability?: string
-    difficulty?: string
-    modifier?: string
-    }
+    import type { AbilityName, CardAbility, Difficulty } from '../types/cards'
 
     const props = defineProps<{
-        abilities: Ability[]
+        abilities: CardAbility[]
     }>()
 
-    const abilityIcons = {
+    const abilityIcons: Record<AbilityName, string> = {
     fight: new URL('../assets/icons/icon_ability_fight.png', import.meta.url).href,
     search: new URL('../assets/icons/icon_ability_search.png', import.meta.url).href,
     sneak: new URL('../assets/icons/icon_ability_sneak.png', import.meta.url).href,
@@ -50,7 +45,7 @@
     think: new URL('../assets/icons/icon_ability_think.png', import.meta.url).href,
     }
 
-    const difficultyIcons = {
+    const difficultyIcons: Record<Difficulty, string> = {
     auto: new URL('../assets/icons/icon_difficulty_auto.png', import.meta.url).href,
     easy: new URL('../assets/icons/icon_difficulty_easy.png', import.meta.url).href,
     medium: new URL('../assets/icons/icon_difficulty_medium.png', import.meta.url).href,
@@ -59,16 +54,14 @@
     }
     
 
-    const abilityIcon = (ability?: string) => {
+    const abilityIcon = (ability?: AbilityName) => {
     if (!ability) return ''
-    const key = ability.toLowerCase() as keyof typeof abilityIcons
-    return abilityIcons[key] ?? abilityIcons.think
+    return abilityIcons[ability] ?? abilityIcons.think
     }
 
-    const difficultyIcon = (difficulty?: string) => {
+    const difficultyIcon = (difficulty?: Difficulty) => {
     if (!difficulty) return ''
-    const key = difficulty.toLowerCase() as keyof typeof difficultyIcons
-    return difficultyIcons[key] ?? difficultyIcons.medium
+    return difficultyIcons[difficulty] ?? difficultyIcons.medium
     }
 </script>
 
