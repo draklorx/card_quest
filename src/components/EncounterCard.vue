@@ -8,19 +8,12 @@
       <div class="encounter-description">
         {{ card.public_description }}
       </div>
-      <div class="card-gm-notes">
-        <span class="card-section-header">GM Notes:</span>
-        {{ card.gm_notes }}
-      </div>
-      <div class="card-flow">
-        <div 
-          v-for="(step, index) in card.flow" 
-          :key="index"
-          class="card-flow-step"
-        >
-          <span class="card-section-header">{{ step.type }}:</span> {{ step.details }}
-        </div>
-      </div>
+      <CardSection :section="gm_notes" />
+      <CardSection
+        v-for="(step, index) in card.flow"
+        :key="index"
+        :section="step"
+      />
     </div>
   </Card>
 </template>
@@ -30,11 +23,17 @@ import { computed } from 'vue'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
 import type { EncounterCardData } from '../types/cards'
+import CardSection from './CardSection.vue';
 
-defineProps<{
+const props = defineProps<{
   card: EncounterCardData
   type: string
 }>()
+
+const gm_notes = {
+  header: "GM Notes",
+  details: props.card.gm_notes
+}
 
 const parchmentBackground = new URL('../assets/parchment_full_bg.png', import.meta.url).href
 const parchmentStyle = computed(() => ({
@@ -75,17 +74,4 @@ const parchmentStyle = computed(() => ({
   gap: 0in;
 }
 
-.card-flow-step {
-  font-size: 8pt;
-  margin-bottom:.08in;
-}
-
-.card-section-header {
-  font-size: 9pt;
-  color: #1c2e30;
-  display: inline;
-  font-weight:700;
-  font-family: "Almendra SC", serif;
-  font-style: normal;
-}
 </style>

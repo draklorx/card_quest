@@ -6,15 +6,15 @@
     "gm_notes": "ALLY was captured by ENEMY and is being held in their camp.",
     "flow": [
       {
-        "type": "Investigation",
+        "header": "Investigation",
         "details": "You must figure out what happened and locate enemy camp."
       },
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You must overcome the enemy to rescue the ally. Depending on the outcome, you may receive REWARD as loot."
       },
       {
-        "type": "Ally",
+        "header": "Ally",
         "details": "You must convince the ally to join you."
       }
     ]
@@ -26,15 +26,15 @@
     "gm_notes": "ENEMY is currently cornered by the beast. Decide on the circumstance (example, pet turned on master, trapper got cornered, etc.).",
     "flow": [
       {
-        "type": "Investigation",
+        "header": "Investigation",
         "details": "You can assess the scene and figure out what's going on."
       },
       {
-        "type": "Beast",
+        "header": "Beast",
         "details": "You must overcome the beast."
       },
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You can overcome the enemy. If successful, you receive REWARD."
       }
     ]
@@ -46,15 +46,15 @@
     "gm_notes": "Ally won't reveal LOCATION until they decide you're the one for the job. There is more treasure than what they seek.",
     "flow": [
       {
-        "type": "Ally",
+        "header": "Ally",
         "details": "You must convince ALLY that you're the one for the job."
       },
       {
-        "type": "Beast",
+        "header": "Beast",
         "details": "You must overcome BEAST to reclaim the treasure and bring it back to ALLY."
       },
       {
-        "type": "Loot",
+        "header": "Loot",
         "details": "You can find additional REWARD as you explore the area."
       }
     ]
@@ -66,11 +66,11 @@
     "gm_notes": "Depending on how you deal with the beast there may be no reward. If befriended the beast may lead them to an alternate reward.",
     "flow": [
       {
-        "type": "Track",
+        "header": "Track",
         "details": "You must follow the tracks to the beast's lair."
       },
       {
-        "type": "Beast",
+        "header": "Beast",
         "details": "Players must overcome the beast and secure proof that it's has been dealt with to claim the reward."
       }
     ]
@@ -82,15 +82,15 @@
     "gm_notes": "Beast was captured by ENEMY and is being held in a cage.",
     "flow": [
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You must overcome the captors to gain access to the cage. Depending on outcome you may receive REWARD as loot."
       },
       {
-        "type": "Cage",
+        "header": "Cage",
         "details": "You must figure out how to open the cage."
       },
       {
-        "type": "Beast",
+        "header": "Beast",
         "details": "You must earn the beast's trust to return it safely to its master."
       }
     ]
@@ -102,15 +102,15 @@
     "gm_notes": "Ally is trapped in BEAST lair. Determine the circumstance (exploration gone wrong, captured by beast, etc.)",
     "flow": [
       {
-        "type": "Investigation",
+        "header": "Investigation",
         "details": "You must figure out what happened and locate the lair."
       },
       {
-        "type": "Beast",
+        "header": "Beast",
         "details": "Players must overcome or distract BEAST long enough to extract ALLY from the lair."
       },
       {
-        "type": "Ally",
+        "header": "Ally",
         "details": "You must convince the ally to join you."
       }
     ]
@@ -122,15 +122,15 @@
     "gm_notes": "Players can join with one to overcome the other, take on both, try to negotiate peace, or find another way to resolve the conflict.",
     "flow": [
       {
-        "type": "Assess",
+        "header": "Assess",
         "details": "You can assess the situation and decide how to approach it."
       },
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You must deal with the first ENEMY force."
       },
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You must deal with the second ENEMY force."
       }
     ]
@@ -142,7 +142,7 @@
     "gm_notes": "ALLY is testing the party's character, skill, or worthiness for future work. Winning cleanly leads to another opportunity. Skip convincing the ally if the quest calls for it.",
     "flow": [
       {
-        "type": "Ally",
+        "header": "Ally",
         "details": "You must take part in ALLY's chosen contest and prove yourself through strength, wit, or discipline. Ally will choose the nature of the contest."
       }
     ]
@@ -154,15 +154,15 @@
     "gm_notes": "Enemy has set traps around the area.",
     "flow": [
       {
-        "type": "Ally",
+        "header": "Ally",
         "details": "Players must deal with traps set by the enemy."
       },
       {
-        "type": "Location",
+        "header": "Location",
         "details": "You must deal with traps set by the enemy."
       },
       {
-        "type": "Enemy",
+        "header": "Enemy",
         "details": "You must overcome the ENEMY. Depending on how this is done you may receive REWARD as loot."
       }
     ]

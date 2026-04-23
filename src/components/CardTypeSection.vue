@@ -25,22 +25,20 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import type { Component } from 'vue'
 import Card from './Card.vue'
 import { EncounterCardData, EntityCardData } from '../types/cards'
-type EntityCardComponent = typeof import('./EntityCard.vue')['default']
-type EncounterCardComponent = typeof import('./EncounterCard.vue')['default']
 
 type EntitySectionProps = {
   cards: EntityCardData[]
-  type: 'ally' | 'beast' | 'enemy' | 'location'
-  cardComponent: EntityCardComponent
+  type: 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'reward'
+  cardComponent: Component
 }
 
 type EncounterSectionProps = {
   cards: EncounterCardData[]
   type: 'encounter'
-  cardComponent: EncounterCardComponent
+  cardComponent: Component
 }
 
 type CardTypeSectionProps = EntitySectionProps | EncounterSectionProps
@@ -51,10 +49,11 @@ const backImages = {
   enemy: new URL('../assets/cards/card_back_enemy.png', import.meta.url).href,
   encounter: new URL('../assets/cards/card_back_encounter.png', import.meta.url).href,
   location: new URL('../assets/cards/card_back_location.png', import.meta.url).href,
+  race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
 }
 
-const backgroundImage = computed(() => backImages[props.type] || backImages.ally)
 const props = defineProps<CardTypeSectionProps>()
+const backgroundImage = backImages[props.type as keyof typeof backImages]
 </script>
 
 <style scoped>

@@ -8,23 +8,25 @@ export type CardAbility = {
   modifier?: string
 }
 
+export type CardSection = {
+  header: string
+  details: string
+}
+
 export type EntityCardData = {
   id: string
   image?: string
   offset?: string
+  feat?: CardSection
   name: string
   abilities: CardAbility[]
 }
 
-export type EncounterFlowStep = {
-  type: string
-  details: string
-}
 
 export type EncounterCardData = {
   id: string
   name: string
   public_description: string
   gm_notes: string
-  flow: EncounterFlowStep[]
+  flow: CardSection[]
 }

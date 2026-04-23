@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <CardTypeSection
+      :cards="races"
+      type="race"
+      :card-component="EntityCard"
+    />
+    <CardTypeSection
       :cards="allies"
       type="ally"
       :card-component="EntityCard"
@@ -42,12 +47,14 @@ import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'
 import encountersData from './data/encounters.json'
 import locationsData from './data/locations.json'
+import raceData from './data/races.json'
 
 const allies = alliesData as EntityCardData[]
 const beasts = beastsData as EntityCardData[]
 const enemies = enemiesData as EntityCardData[]
 const encounters = encountersData as EncounterCardData[]
 const locations = locationsData as EntityCardData[]
+const races = raceData as EntityCardData[]
 </script>
 
 <style>

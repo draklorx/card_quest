@@ -1,92 +1,99 @@
 [
     {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Human",
+        "image": "races/human.png",
+        "offset": "-0.3in",
+        "abilities": [
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "talk", "modifier": "+1"}
+        ],
+        "feat": {"header": "Versatile", "details": "Once per quest, you can choose any ability to use for a check."}
+    },
+    {
         "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
         "name": "Elf",
         "image": "races/elf.png",
+        "offset": "-0.1in",
         "abilities": [
-            {"ability": "search", "modifier": "+1"},
-            {"ability": "sneak", "modifier": "+1"}
+            {"ability": "talk", "modifier": "+1"},
+            {"ability": "search", "modifier": "+1"}
         ],
-        "feat": {"name": "Forest Friend", "description": "+1 to talk checks with elves, treents, or dryads."}
+        "feat": {"header": "Forest Friend", "details": "+1 to talk checks with elves, treents, or dryads."}
     },
     {
         "id": "e71a6c0c-6602-418a-a9a8-1383669cb486",
         "name": "Dwarf",
         "image": "races/dwarf.png",
+        "offset": "-0.3in",
         "abilities": [
             {"ability": "fight", "modifier": "+1"},
-            {"ability": "health", "modifier": "+1"}
+            {"ability": "think", "modifier": "+1"}
         ],
-        "feat": {"name": "Stonecunning", "description": "+1 to search checks in caves, mountains, or ruins."}
+        "feat": {"header": "Stonecunning", "details": "+1 to search checks in caves, mountains, or ruins."}
     },
     {
         "id": "2a4799f6-e1f8-4f3d-bdb6-fa2a48d7d271",
         "name": "Halfling",
         "image": "races/halfling.png",
+        "offset": "-0.0in",
         "abilities": [
             {"ability": "sneak", "modifier": "+1"},
-            {"ability": "stress", "modifier": "+1"}
+            {"ability": "talk", "modifier": "+1"}
         ],
-        "feat": {"name": "Lucky", "description": "Once per quest, you can re-roll one failed check."}
+        "feat": {"header": "Lucky", "details": "Once per quest, you can re-roll one failed check."}
     },
     {
         "id": "1d4409ce-4f4f-447c-ad92-58fa146ef331",
         "name": "Gnome",
         "image": "races/gnome.png",
-        "abilities": [
-            {"ability": "think", "modifier": "+1"},
-            {"ability": "search", "modifier": "+1"}
-        ],
-        "feat": {"name": "Inventor", "description": "Once per quest, you can use an invention to get +1 to a check."}
-    },
-    {
-        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
-        "name": "Human",
-        "image": "races/human.png",
-        "abilities": [
-            {"ability": "stress", "modifier": "+1"},
-            {"ability": "talk", "modifier": "+1"}
-        ],
-        "feat": {"name": "Versatile", "description": "Once per quest, you can choose any one ability to use for a check."}
-    },
-    {
-        "id": "7b47c6bc-3aaf-4d62-9042-700d92e26246",
-        "name": "Fairy",
-        "image": "races/fairy.png",
+        "offset": "-0.2in",
         "abilities": [
             {"ability": "sneak", "modifier": "+1"},
             {"ability": "think", "modifier": "+1"}
         ],
-        "feat": {"name": "Flight", "description": "Ignore any negative modifiers to sneak or search checks."}
+        "feat": {"header": "Inventor", "details": "Once per quest, you can use an invention to get +1 to a check."}
+    },
+    {
+        "id": "7b47c6bc-3aaf-4d62-9042-700d92e26246",
+        "name": "Forged",
+        "image": "races/forged.png",
+        "offset": "-0.0in",
+        "abilities": [
+            {"ability": "search", "modifier": "+1"},
+            {"ability": "think", "modifier": "+1"}
+        ],
+        "feat": {"header": "Flight", "details": "Ignore any negative modifiers to sneak checks."}
     },
     {
         "id": "6b25e1b4-1726-4e04-9e10-3952245a7f7c",
-        "name": "Katari",
-        "image": "races/katari.png",
+        "name": "Dryad",
+        "image": "races/dryad.png",
+        "offset": "-0.0in",
         "abilities": [
             {"ability": "sneak", "modifier": "+1"},
             {"ability": "search", "modifier": "+1"}
         ],
-        "feat": {"name": "Beast Friend", "description": "You get a +1 bonus to talk checks with beasts."}
+        "feat": {"header": "Nature's Blessing", "details": "No penalties in forests."}
     },
     {
         "id": "3f22a28d-9e61-4023-ba35-49c6d5f18f49",
-        "name": "Planar",
-        "image": "races/planar.png",
+        "name": "Half-Giant",
+        "image": "races/half-giant.png",
         "abilities": [
             {"ability": "talk", "modifier": "+1"},
-            {"ability": "sneak", "modifier": "+1"}
+            {"ability": "think", "modifier": "+1"}
         ],
-        "feat": {"name": "Celestial", "description": "You get a +1 bonus to talk checks with allies."}
+        "feat": {"header": "Mountain Born", "details": "You get a +1 bonus to checks in mountainous terrain."}
     },
     {
         "id": "d58d4a2e-6c61-4b6f-965f-5e7b04e73982",
-        "name": "Funguy",
-        "image": "races/funguy.png",
+        "name": "Revenant",
+        "image": "races/revenant.png",
         "abilities": [
-            {"ability": "health", "modifier": "+1"},
-            {"ability": "stress", "modifier": "+1"}
+            {"ability": "fight", "modifier": "+1"},
+            {"ability": "sneak", "modifier": "+1"}
         ],
-        "feat": {"name": "Spore Cloud", "description": "Once per quest, an character can remove one stress."}
+        "feat": {"header": "Undead Essence", "details": "+1 bonus to sneak or search checks against undead"}
     }
 ]

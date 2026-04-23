@@ -4,6 +4,7 @@
     "name": "Elf",
     "image": "allies/elf.png",
     "offset": "-0.2in",
+    "categories": ["Sylvan", "Magical"],
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "hard"},
@@ -17,6 +18,7 @@
     "name": "Dwarf",
     "image": "allies/dwarf.png",
     "offset": "-0.2in",
+    "categories": ["Underfolk", "Settled"],
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "easy"},
@@ -30,6 +32,7 @@
     "name": "Pixie",
     "image": "allies/pixie.png",
     "offset": "-0.1in",
+    "categories": ["Fey", "Magical"],
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "hard"},
@@ -42,6 +45,7 @@
     "id": "b4c3d2e1-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
     "name": "Treent",
     "image": "allies/treent.png",
+    "categories": ["Sylvan", "Giant"],
     "abilities": [
       {"ability": "fight", "difficulty": "hard"},
       {"ability": "search", "difficulty": "medium"},
@@ -54,6 +58,7 @@
     "id": "c5d4e3f2-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
     "name": "Halfling",
     "image": "allies/halfling.png",
+    "categories": ["Settled", "Agrarian"],
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "hard"},
@@ -66,6 +71,7 @@
     "id": "d6e5f4g3-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
     "name": "Satyr",
     "image": "allies/satyr.png",
+    "categories": ["Sylvan", "Magical"],
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "medium"},
@@ -79,6 +85,7 @@
     "name": "Gnome",
     "image": "allies/gnome.png",
     "offset": "-0.2in",
+    "categories": ["Underfolk", "Settled"],
     "abilities": [
       {"ability": "fight", "difficulty": "easy"},
       {"ability": "search", "difficulty": "medium"},
@@ -92,6 +99,7 @@
     "name": "Centaur",
     "image": "allies/centaur.png",
     "offset": "-0.15in",
+    "categories": ["Sylvan", "Agrarian"],
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "medium"},
@@ -105,6 +113,7 @@
     "name": "Dryad",
     "image": "allies/dryad.png",
     "offset": "-0.1in",
+    "categories": ["Sylvan", "Magical"],
     "abilities": [
       {"ability": "fight", "difficulty": "medium"},
       {"ability": "search", "difficulty": "hard"},

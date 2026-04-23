@@ -29,8 +29,10 @@ const borderImages = {
   enemy: new URL('../assets/cards/card_border_enemy.png', import.meta.url).href,
   encounter: new URL('../assets/cards/card_border_encounter.png', import.meta.url).href,
   location: new URL('../assets/cards/card_border_location.png', import.meta.url).href,
+  race: new URL('../assets/cards/card_border_race.png', import.meta.url).href,
 }
-const cardBorder = borderImages[props.type as keyof typeof borderImages] || borderImages.ally
+const cardBorder = borderImages[props.type as keyof typeof borderImages]
+
 const cardStyle = computed(() => {
   const style: Record<string, string> = {
     '--card-border': `url("${cardBorder}")`,

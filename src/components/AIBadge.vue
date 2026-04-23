@@ -27,4 +27,8 @@
   text-transform: uppercase;
   pointer-events: none;
 }
+
+.card--race .ai-badge {
+  bottom: 1.6in;
+}
 </style>

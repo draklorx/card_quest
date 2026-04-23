@@ -72,7 +72,7 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     }
 
     .ability-tile {
