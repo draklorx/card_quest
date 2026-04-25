@@ -3,12 +3,13 @@
     "id": "5ef9fae5-1688-486f-890f-40e2ccbd26e6",
     "image": "enemies/bandit.png",
     "name": "Bandits",
-    "abilities": [
-      {"ability": "fight", "difficulty": "medium"},
-      {"ability": "search", "difficulty": "easy"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "medium"},
+      {"stat": "search", "difficulty": "easy"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "medium"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -16,12 +17,13 @@
     "name": "Orcs",
     "image": "enemies/orc.png",
     "offset": "-0.4in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "hard"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "hard"}
     ]
   },
   {
@@ -29,36 +31,39 @@
     "name": "Goblins",
     "image": "enemies/goblin.png",
     "offset": "-0.1in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "easy"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "easy"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "hard"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "easy"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "easy"},
+      {"stat": "talk", "difficulty": "medium"},
+      {"stat": "sneak", "difficulty": "hard"}
     ]
   },
   {
     "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
     "name": "Ogre",
     "image": "enemies/ogre.png",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "easy"},
-      {"ability": "think", "difficulty": "easy"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "easy"}
+    "categories": ["Giant"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "easy"},
+      {"stat": "think", "difficulty": "easy"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "easy"}
     ]
   },
   {
     "id": "e5f6g7h8-i9j0-1k2l-3m4n-5o6p7q8r9s0t",
     "name": "Harpy",
     "image": "enemies/harpy.png",
-    "abilities": [
-      {"ability": "fight", "difficulty": "medium"},
-      {"ability": "search", "difficulty": "easy"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "hard"}
+    "categories": ["Sylvan"],
+    "stats": [
+      {"stat": "fight", "difficulty": "medium"},
+      {"stat": "search", "difficulty": "easy"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "medium"},
+      {"stat": "sneak", "difficulty": "hard"}
     ]
   },
   {
@@ -66,12 +71,13 @@
     "name": "Hag",
     "image": "enemies/hag.png",
     "offset": "-0.3in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "hard"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Magical"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "hard"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -79,12 +85,13 @@
     "name": "Kobolds",
     "image": "enemies/kobold.png",
     "offset": "-0.3in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "easy"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "easy"},
-      {"ability": "talk", "difficulty": "easy"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "easy"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "easy"},
+      {"stat": "talk", "difficulty": "easy"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -92,24 +99,26 @@
     "name": "Skeletons",
     "image": "enemies/skeleton.png",
     "offset": "-0.6in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "medium"},
-      {"ability": "search", "difficulty": "easy"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "impossible"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Undead"],
+    "stats": [
+      {"stat": "fight", "difficulty": "medium"},
+      {"stat": "search", "difficulty": "easy"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "impossible"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
     "id": "i9j0k1l2-m3n4-5o6p-7q8r-9s0t1u2v3w4x",
     "name": "Wraith",
     "image": "enemies/wraith.png",
-    "abilities": [
-      {"ability": "fight", "difficulty": "impossible"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Undead"],
+    "stats": [
+      {"stat": "fight", "difficulty": "impossible"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   }
 ]

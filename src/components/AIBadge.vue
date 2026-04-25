@@ -11,7 +11,7 @@
 .ai-badge {
   position: absolute;
   right: 0.2in;
-  bottom: 1.2in;
+  bottom: 1.36in;
   width: 0.15in;
   height: 0.15in;
   display: flex;
@@ -28,7 +28,12 @@
   pointer-events: none;
 }
 
-.card--race .ai-badge {
+.card--race .ai-badge,
+.card--class .ai-badge {
   bottom: 1.6in;
+}
+
+.card--location .ai-badge {
+  bottom: 1.2in;
 }
 </style>

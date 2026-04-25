@@ -4,12 +4,13 @@
     "name": "Dire Wolf",
     "image": "beasts/dire_wolf.png",
     "offset": "-0.35in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "medium"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "hard"}
+    "categories": ["Sylvan"],
+    "stats": [
+      {"stat": "fight", "difficulty": "medium"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "hard"}
     ]
   },
   {
@@ -17,12 +18,13 @@
     "name": "Giant Spider",
     "image": "beasts/giant_spider.png",
     "offset": "-0.4in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -30,12 +32,13 @@
     "name": "Troll",
     "image": "beasts/troll.png",
     "offset": "-0.4in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "easy"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "easy"}
+    "categories": ["Giant"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "easy"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "easy"}
     ]
   },
   {
@@ -43,12 +46,13 @@
     "name": "Owlbear",
     "image": "beasts/owlbear.png",
     "offset": "-0.25in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Sylvan"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "medium"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -56,12 +60,13 @@
     "name": "Unicorn",
     "image": "beasts/unicorn.png",
     "offset": "-0.1in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Magical"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -69,12 +74,13 @@
     "name": "Basilisk",
     "image": "beasts/basilisk.png",
     "offset": "-0.4in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "hard"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "hard"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -82,12 +88,13 @@
     "name": "Gryphon",
     "image": "beasts/gryphon.png",
     "offset": "-0.05in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "easy"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "hard"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "easy"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "hard"}
     ]
   },
   {
@@ -95,12 +102,13 @@
     "name": "A \"Perfectly Normal\" Duck",
     "image": "beasts/duck.png",
     "offset": "-0.25in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "hard"},
-      {"ability": "search", "difficulty": "hard"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "medium"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": ["Magical"],
+    "stats": [
+      {"stat": "fight", "difficulty": "hard"},
+      {"stat": "search", "difficulty": "hard"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "medium"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   },
   {
@@ -108,12 +116,13 @@
     "name": "Giant Rat",
     "image": "beasts/giant_rat.png",
     "offset": "-0.45in",
-    "abilities": [
-      {"ability": "fight", "difficulty": "easy"},
-      {"ability": "search", "difficulty": "medium"},
-      {"ability": "think", "difficulty": "medium"},
-      {"ability": "talk", "difficulty": "hard"},
-      {"ability": "sneak", "difficulty": "medium"}
+    "categories": [],
+    "stats": [
+      {"stat": "fight", "difficulty": "easy"},
+      {"stat": "search", "difficulty": "medium"},
+      {"stat": "think", "difficulty": "medium"},
+      {"stat": "talk", "difficulty": "hard"},
+      {"stat": "sneak", "difficulty": "medium"}
     ]
   }
 ]

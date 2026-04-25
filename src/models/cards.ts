@@ -6,14 +6,8 @@ export type Modifier = "+2" | "+1" | "-1"
 
 export type CardStat = {
   stat: StatName
-}
-
-export type CardStatModifier = CardStat & {
-  modifier: Modifier
-}
-
-export type CardStatDifficulty = CardStat & {
-  difficulty: Difficulty
+  modifier?: Modifier
+  difficulty?: Difficulty
 }
 
 export type CardSection = {
@@ -30,23 +24,8 @@ export type EntityCardData = {
   offset?: string
   categories?: string[]
   ability?: CardSection
-  stats: CardStatModifier[] | CardStatDifficulty[]
+  stats: CardStat[]
 }
-
-export type CharacterCardData = EntityCardData & {
-  ability: CardSection
-  stats: CardStatModifier[]
-}
-
-export type ChallengeCardData = EntityCardData & {
-  categories: string[]
-  stats: CardStatDifficulty[]
-}
-
-export type LocationCardData = EntityCardData & {
-  stats: CardStatModifier[]
-}
-
 
 export type EncounterCardData = {
   id: string

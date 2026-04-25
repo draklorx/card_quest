@@ -1,29 +1,29 @@
 <template>
-  <div class="abilities-footer">
-    <ul class="ability-list">
+  <div class="stats-footer">
+    <ul class="stat-list">
       <li
-        v-for="ability in abilities"
-        :key="ability.ability"
-        class="ability-tile"
+        v-for="stat in stats"
+        :key="stat.stat"
+        class="stat-tile"
       >
         <img
-          v-if="ability.ability"
-          class="ability-icon"
-          :src="abilityIcon(ability.ability)"
-          :alt="ability.ability"
+          v-if="stat.stat"
+          class="stat-icon"
+          :src="statIcon(stat.stat)"
+          :alt="stat.stat"
         >
         <img
-          v-if="ability.difficulty"
+          v-if="stat.difficulty"
           class="difficulty-icon"
-          :src="difficultyIcon(ability.difficulty)"
-          :alt="ability.difficulty"
+          :src="difficultyIcon(stat.difficulty)"
+          :alt="stat.difficulty"
         >
         <div
-          v-if="ability.modifier"
+          v-if="stat.modifier"
           class="difficulty-modifer"
-          :aria-label="`Difficulty modifier ${ability.modifier}`"
+          :aria-label="`Difficulty modifier ${stat.modifier}`"
         >
-          {{ ability.modifier }}
+          {{ stat.modifier }}
         </div>
       </li>
     </ul>
@@ -31,18 +31,20 @@
 </template>
 
 <script setup lang="ts">
-    import type { AbilityName, CardAbility, Difficulty } from '../types/cards'
+    import type { StatName, CardStat, Difficulty } from '../models/cards'
 
     defineProps<{
-        abilities: CardAbility[]
+        stats: CardStat[]
     }>()
 
-    const abilityIcons: Record<AbilityName, string> = {
-    fight: new URL('../assets/icons/icon_ability_fight.png', import.meta.url).href,
-    search: new URL('../assets/icons/icon_ability_search.png', import.meta.url).href,
-    sneak: new URL('../assets/icons/icon_ability_sneak.png', import.meta.url).href,
-    talk: new URL('../assets/icons/icon_ability_talk.png', import.meta.url).href,
-    think: new URL('../assets/icons/icon_ability_think.png', import.meta.url).href,
+    const statIcons: Record<StatName, string> = {
+    fight: new URL('../assets/icons/icon_stat_fight.png', import.meta.url).href,
+    search: new URL('../assets/icons/icon_stat_search.png', import.meta.url).href,
+    sneak: new URL('../assets/icons/icon_stat_sneak.png', import.meta.url).href,
+    talk: new URL('../assets/icons/icon_stat_talk.png', import.meta.url).href,
+    think: new URL('../assets/icons/icon_stat_think.png', import.meta.url).href,
+    health: new URL('../assets/icons/icon_stat_health.png', import.meta.url).href,
+    focus: new URL('../assets/icons/icon_stat_focus.png', import.meta.url).href,
     }
 
     const difficultyIcons: Record<Difficulty, string> = {
@@ -54,9 +56,9 @@
     }
     
 
-    const abilityIcon = (ability?: AbilityName) => {
-    if (!ability) return ''
-    return abilityIcons[ability] ?? abilityIcons.think
+    const statIcon = (stat?: StatName) => {
+    if (!stat) return ''
+    return statIcons[stat] ?? statIcons.think
     }
 
     const difficultyIcon = (difficulty?: Difficulty) => {
@@ -66,7 +68,7 @@
 </script>
 
 <style scoped>
-    .ability-list {
+    .stat-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -75,13 +77,13 @@
     justify-content: space-around;
     }
 
-    .ability-tile {
+    .stat-tile {
     display: flex;
     flex-direction: column;
     align-items: center;
     }
 
-    .ability-icon,
+    .stat-icon,
     .difficulty-icon {
     width: 0.3in;
     height: 0.3in;

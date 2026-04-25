@@ -5,6 +5,13 @@
       type="race"
       :card-component="EntityCard"
     />
+
+    <CardTypeSection
+      :cards="classes"
+      type="class"
+      :card-component="EntityCard"
+    />
+
     <CardTypeSection
       :cards="allies"
       type="ally"
@@ -41,13 +48,17 @@
 import CardTypeSection from './components/CardTypeSection.vue'
 import EntityCard from './components/EntityCard.vue'
 import EncounterCard from './components/EncounterCard.vue'
-import type { EncounterCardData, EntityCardData } from './types/cards'
+import type {
+  EncounterCardData,
+  EntityCardData,
+} from './models/cards'
 import alliesData from './data/allies.json'
 import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'
 import encountersData from './data/encounters.json'
 import locationsData from './data/locations.json'
 import raceData from './data/races.json'
+import classData from './data/classes.json'
 
 const allies = alliesData as EntityCardData[]
 const beasts = beastsData as EntityCardData[]
@@ -55,6 +66,7 @@ const enemies = enemiesData as EntityCardData[]
 const encounters = encountersData as EncounterCardData[]
 const locations = locationsData as EntityCardData[]
 const races = raceData as EntityCardData[]
+const classes = classData as EntityCardData[]
 </script>
 
 <style>

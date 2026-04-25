@@ -30,6 +30,7 @@ const borderImages = {
   encounter: new URL('../assets/cards/card_border_encounter.png', import.meta.url).href,
   location: new URL('../assets/cards/card_border_location.png', import.meta.url).href,
   race: new URL('../assets/cards/card_border_race.png', import.meta.url).href,
+  class: new URL('../assets/cards/card_border_class.png', import.meta.url).href,
 }
 const cardBorder = borderImages[props.type as keyof typeof borderImages]
 

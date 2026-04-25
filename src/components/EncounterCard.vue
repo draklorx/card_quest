@@ -22,7 +22,7 @@
 import { computed } from 'vue'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
-import type { EncounterCardData } from '../types/cards'
+import type { EncounterCardData } from '../models/cards'
 import CardSection from './CardSection.vue';
 
 const props = defineProps<{

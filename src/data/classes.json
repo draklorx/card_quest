@@ -1,92 +1,114 @@
 [
+
+    {
+        "id": "fa1c6e0e-b290-4b48-98ee-8cd0e14823a7",
+        "name": "Knight",
+        "image": "classes/knight.png",
+        "offset": "-0.85in",
+        "stats": [
+            {"stat": "fight", "modifier": "+1"},
+            {"stat": "talk", "modifier": "+1"},
+            {"stat": "health", "modifier": "+2"}
+        ],
+        "ability": {"name": "Protect", "description": "Reduce damage taken in group fight checks by one."}
+    },    
     {
         "id": "053cbcdd-7a35-4302-8e70-f38266b8f616",
         "name": "Rogue",
         "image": "classes/rogue.png",
-        "abilities": [
-            {"ability": "sneak", "modifier": "+1"},
-            {"ability": "stress", "modifier": "+1"}
+        "offset": "-0.8in",
+        "stats": [
+            {"stat": "sneak", "modifier": "+1"},
+            {"stat": "search", "modifier": "+1"},
+            {"stat": "health", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
         ],
-        "feat": {"name": "Sneak Attack", "description": "Once per quest, you can use sneak instead of fight for a fight check."}
-    },
-    {
-        "id": "fa1c6e0e-b290-4b48-98ee-8cd0e14823a7",
-        "name": "Warrior",
-        "image": "classes/warrior.png",
-        "abilities": [
-            {"ability": "fight", "modifier": "+1"},
-            {"ability": "health", "modifier": "+1"}
-        ],
-        "feat": {"name": "Protect", "description": "Once per quest when another character loses a health point, you can lose it intead."}
+        "ability": {"name": "Sneak Attack", "description": "Once per quest, you can use sneak for a fight check."}
     },
     {
         "id": "55c08da8-8b07-4e94-9edb-6c0315e9004e",
         "name": "Wizard",
         "image": "classes/wizard.png",
-        "abilities": [
-            {"ability": "think", "modifier": "+1"},
-            {"ability": "search", "modifier": "+1"}
+        "offset": "-0.9in",
+        "stats": [
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "search", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+2"}
         ],
-        "feat": {"name": "Magic Missile", "description": "Once per quest, you can auto pass a fight check."}
+        "ability": {"name": "Magic Missile", "description": "Once per objective, you can auto pass a fight check."}
     },
     {
         "id": "d76dc039-5059-4ba4-a11b-26d0b442494a",
         "name": "Bard",
         "image": "classes/bard.png",
-        "abilities": [
-            {"ability": "talk", "modifier": "+1"},
-            {"ability": "stress", "modifier": "+1"}
+        "offset": "-0.9in",
+        "stats": [
+            {"stat": "talk", "modifier": "+1"},
+            {"stat": "sneak", "modifier": "+1"},
+            {"stat": "health", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
         ],
-        "feat": {"name": "Inspire", "description": "Once per quest, you can give an ally +1 to any one check."}
+        "ability": {"name": "Inspire", "description": "Once per quest, before rolling, you can give an ally +1 to any check."}
     },
     {
         "id": "560a25fe-9e64-48da-a92e-d74459392210",
         "name": "Ranger",
         "image": "classes/ranger.png",
-        "abilities": [
-            {"ability": "search", "modifier": "+1"},
-            {"ability": "sneak", "modifier": "+1"}
+        "offset": "-1.2in",
+        "stats": [
+            {"stat": "fight", "modifier": "+1"},
+            {"stat": "search", "modifier": "+1"},
+            {"stat": "health", "modifier": "+2"}
         ],
-        "feat": {"name": "Favored Terrain", "description": "Once per quest, you can ignore any penalty from a location."}
+        "ability": {"name": "Favored Terrain", "description": "Once per quest, you can ignore any penalty from a location."}
     },
     {
         "id": "cff549f6-da6f-4317-8bf6-cbd2676644da",
         "name": "Cleric",
         "image": "classes/cleric.png",
-        "abilities": [
-            {"ability": "talk", "modifier": "+1"},
-            {"ability": "health", "modifier": "+1"}
+        "offset": "-0.9in",
+        "stats": [
+            {"stat": "talk", "modifier": "+1"},
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "health", "modifier": "+2"}
         ],
-        "feat": {"name": "Heal", "description": "Once per quest, you can heal an ally for 1 health point."}
+        "ability": {"name": "Heal", "description": "Once per quest, you can heal an ally for 1 health point."}
     },
     {
         "id": "cf8aac3e-55d2-48fe-8c92-94e3430052d4",
-        "name": "Paladin",
-        "image": "classes/paladin.png",
-        "abilities": [
-            {"ability": "fight", "modifier": "+1"},
-            {"ability": "talk", "modifier": "+1"}
+        "name": "Warlock",
+        "image": "classes/warlock.png",
+        "offset": "-0.9in",
+        "stats": [
+            {"stat": "sneak", "modifier": "+1"},
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+2"}
         ],
-        "feat": {"name": "Divine Smite", "description": "Once per quest, you can add +1 to a fight check and ignore any negative modifier to fight."}
+        "ability": {"name": "Curse", "description": "Once per objective, you can reduce a difficulty check for an enemy."}
     },
     {
         "id": "9641d023-36ff-438c-afc1-3e10da5b251c",
         "name": "Druid",
         "image": "classes/druid.png",
-        "abilities": [
-            {"ability": "think", "modifier": "+1"},
-            {"ability": "search", "modifier": "+1"}
+        "offset": "-0.6in",
+        "stats": [
+            {"stat": "talk", "modifier": "+1"},
+            {"stat": "search", "modifier": "+1"},
+            {"stat": "health", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
         ],
-        "feat": {"name": "Wild Shape", "description": "Once per quest, you can auto pass a sneak check."}
+        "ability": {"name": "Wild Shape", "description": "Once per objective, you can auto pass a sneak check."}
     },
     {
         "id": "0fa9bb29-f92f-40f3-93b6-a45f17aa0fb5",
-        "name": "Monk",
-        "image": "classes/monk.png",
-        "abilities": [
-            {"ability": "fight", "modifier": "+1"},
-            {"ability": "think", "modifier": "+1"}
+        "name": "Artificer",
+        "image": "classes/artificer.png",
+        "offset": "-0.9in",
+        "stats": [
+            {"stat": "fight", "modifier": "+1"},
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+2"}
         ],
-        "feat": {"name": "Ki", "description": "Once per quest, you can add +1 to any one check."}
+        "ability": {"name": "Inventor", "description": "Once per objective, you may draw a reward and use it for one quest."}
     }
 ]

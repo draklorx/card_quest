@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
 import Card from './Card.vue'
-import { EncounterCardData, EntityCardData } from '../types/cards'
+import { EncounterCardData, EntityCardData } from '../models/cards'
 
 type EntitySectionProps = {
   cards: EntityCardData[]
@@ -50,6 +50,7 @@ const backImages = {
   encounter: new URL('../assets/cards/card_back_encounter.png', import.meta.url).href,
   location: new URL('../assets/cards/card_back_location.png', import.meta.url).href,
   race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
+  class: new URL('../assets/cards/card_back_class.png', import.meta.url).href,
 }
 
 const props = defineProps<CardTypeSectionProps>()
