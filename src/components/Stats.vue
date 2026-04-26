@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-    import type { StatName, CardStat, Difficulty } from '../models/cards'
+    import type { StatName, CardStat, Difficulty } from '../types/cards'
 
     defineProps<{
         stats: CardStat[]

@@ -1,37 +1,39 @@
 <template>
-  <section class="card-type-section card-section-break">
-    <div class="card-grid">
-      <component
-        :is="cardComponent"
-        v-for="card in cards"
-        :key="card.id"
-        :card="card"
-        :type="type"
-      />
-    </div>
-  </section>
-  <section class="card-type-section card-section-break">
-    <div class="card-grid">
-      <Card
-        v-for="card in cards"
-        :key="card.id"
-        :type="type"
-        :background-image="backgroundImage"
-        background-size="cover"
-        background-position="center"
-      />
-    </div>
-  </section>
+  <template v-for="(cardChunk, chunkIndex) in cardChunks" :key="`${type}-${chunkIndex}`">
+    <section class="card-type-section card-section-break">
+      <div class="card-grid">
+        <component
+          :is="cardComponent"
+          v-for="card in cardChunk"
+          :key="card.id"
+          :card="card"
+          :type="type"
+        />
+      </div>
+    </section>
+    <section class="card-type-section card-section-break">
+      <div class="card-grid">
+        <Card
+          v-for="card in cardChunk"
+          :key="card.id"
+          :type="type"
+          :background-image="backgroundImage"
+          background-size="cover"
+          background-position="center"
+        />
+      </div>
+    </section>
+  </template>
 </template>
 
 <script setup lang="ts">
-import type { Component } from 'vue'
+import { computed, type Component } from 'vue'
 import Card from './Card.vue'
-import { EncounterCardData, EntityCardData } from '../models/cards'
+import { EncounterCardData, EntityCardData, CardType } from '../types/cards'
 
 type EntitySectionProps = {
   cards: EntityCardData[]
-  type: 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'reward'
+  type: CardType
   cardComponent: Component
 }
 
@@ -51,10 +53,24 @@ const backImages = {
   location: new URL('../assets/cards/card_back_location.png', import.meta.url).href,
   race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_back_class.png', import.meta.url).href,
+  treasure: new URL('../assets/cards/card_back_treasure.png', import.meta.url).href,
 }
 
 const props = defineProps<CardTypeSectionProps>()
 const backgroundImage = backImages[props.type as keyof typeof backImages]
+
+const CARDS_PER_PAGE = 9
+
+const cardChunks = computed(() => {
+  const chunks: CardTypeSectionProps['cards'][] = []
+
+  for (let index = 0; index < props.cards.length; index += CARDS_PER_PAGE) {
+    chunks.push(props.cards.slice(index, index + CARDS_PER_PAGE))
+  }
+
+  return chunks
+})
+
 </script>
 
 <style scoped>

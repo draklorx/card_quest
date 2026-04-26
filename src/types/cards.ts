@@ -4,16 +4,12 @@ export type Difficulty = 'auto' | 'easy' | 'medium' | 'hard' | 'impossible'
 
 export type Modifier = "+2" | "+1" | "-1"
 
+export type CardType = 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'treasure'
+
 export type CardStat = {
   stat: StatName
-}
-
-export type CardStatModifier = CardStat & {
-  modifier: Modifier
-}
-
-export type CardStatDifficulty = CardStat & {
-  difficulty: Difficulty
+  difficulty?: Difficulty
+  modifier?: Modifier
 }
 
 export type CardSection = {
@@ -29,24 +25,10 @@ export type EntityCardData = {
   image: string
   offset?: string
   categories?: string[]
+  slot?: CardSection
   ability?: CardSection
-  stats: CardStatModifier[] | CardStatDifficulty[]
+  stats: CardStat[]
 }
-
-export type CharacterCardData = EntityCardData & {
-  ability: CardSection
-  stats: CardStatModifier[]
-}
-
-export type ChallengeCardData = EntityCardData & {
-  categories: string[]
-  stats: CardStatDifficulty[]
-}
-
-export type LocationCardData = EntityCardData & {
-  stats: CardStatModifier[]
-}
-
 
 export type EncounterCardData = {
   id: string

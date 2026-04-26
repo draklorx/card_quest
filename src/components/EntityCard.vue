@@ -20,6 +20,10 @@
         </span>
       </div>
       <CardSection
+        v-if="card.slot"
+        :section="card.slot"
+      />
+      <CardSection
         v-if="card.ability"
         :section="card.ability"
       />
@@ -30,7 +34,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { EntityCardData } from '../models/cards'
+import type { EntityCardData } from '../types/cards'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
 import AIBadge from './AIBadge.vue'

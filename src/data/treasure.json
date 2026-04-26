@@ -1,0 +1,204 @@
+[
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Giant Slayer's Axe",
+        "image": "treasure/giant_slayers_axe.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "fight", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Held - 2 Hands"},
+        "ability": {"header": "Giant's Bane", "details": "+1 to fight and party -1 to talk checks against giants."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Tome of Forbidden Lore",
+        "image": "treasure/tome_of_forbidden_lore.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "talk", "modifier": "-1"}
+        ],
+        "slot": {"header": "Slot", "details": "Held - 1 Hand"},
+        "ability": {"header": "Magic Obsessed", "details": "+2 to talk checks with magical creatures."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Divine Avenger",
+        "image": "treasure/divine_avenger.png",
+        "offset": "-0.3in",
+        "stats": [{"stat": "fight", "modifier": "+1"}],
+        "slot": {"header": "Slot", "details": "Held - 1 Hand"},
+        "ability": {"header": "Avenger", "details": "+1 to fight checks vs undead and fiends."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Oathbow",
+        "image": "treasure/oathbow.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "fight", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Held - 2 Hands"},
+        "ability": {"header": "Oath", "details": "+1 to fight checks vs any one creature / type chosen when acquired."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Lantern of Revealing",
+        "image": "treasure/lantern_of_revealing.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "search", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Held - 1 Hand"},
+        "ability": {"header": "Reveal", "details": "+1 to search checks vs undead creatures."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Dragon Scale Shield",
+        "image": "treasure/dragon_scale_shield.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Held - 1 Hand"},
+        "ability": {"header": "Flame Guard", "details": "Reduce damage from fire creatures by 1."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Charger Grieves",
+        "image": "treasure/boots_of_water_walking.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Feet"},
+        "ability": {"header": "Charge", "details": "Once per objective, +1 to fight check."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Boots of Spiderclimb",
+        "image": "treasure/boots_of_spiderclimb.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "search", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Feet"},
+        "ability": {"header": "Wall Walk", "details": "Wearer suffers no penalties in rocky locations."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Boots of Elvenkind",
+        "image": "treasure/boots_of_elvenkind.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "sneak", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Feet"},
+        "ability": {"header": "Natural Stealth", "details": "+1 to sneak checks in overgrown locations."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Bracers of Defense",
+        "image": "treasure/bracers_of_defense.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Hands"},
+        "ability": {"header": "Block", "details": "Once per objective, reduce damage by 1."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Gloves of Thievery",
+        "image": "treasure/gloves_of_thievery.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "focus", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Hands"},
+        "ability": {"header": "Light Fingers", "details": "+1 to sneak checks to steal, disarm, or pick locks."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Ring of Hypnotism",
+        "image": "treasure/ring_of_hypnotism.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "talk", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Feet"},
+        "ability": {"header": "Hypnotize", "details": "Once per objective, automatically pass a talk check."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Cloak of Shadow",
+        "image": "treasure/cloak_of_shadows.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "sneak", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Body"},
+        "ability": {"header": "Shadow Step", "details": "Once per objective, reduce damage or stress by 1."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Mitrhril Chain",
+        "image": "treasure/mithril_chain.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Body"},
+        "ability": {"header": "Inspiring", "details": "Once per objective, +1 to talk check."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Adamantine Plate",
+        "image": "treasure/adamantine_plate.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+2"},
+            {"stat": "sneak", "modifier": "-1"}
+        ],
+        "slot": {"header": "Slot", "details": "Body"},
+        "ability": {"header": "Unyielding", "details": "Once per objective, take no damage."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Helm of Brilliance",
+        "image": "treasure/helm_of_brilliance.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "think", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Head"},
+        "ability": {"header": "Magical Conversationalist", "details": "+1 to talk checks against magical creatures."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Crown of Command",
+        "image": "treasure/mithril_chain.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "talk", "modifier": "+1"},
+            {"stat": "focus", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Head"},
+        "ability": {"header": "Command", "details": "Once per objective, automatically pass a talk check."}
+    },
+    {
+        "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
+        "name": "Skull Helmet",
+        "image": "treasure/adamantine_plate.png",
+        "offset": "-0.3in",
+        "stats": [
+            {"stat": "health", "modifier": "+1"}
+        ],
+        "slot": {"header": "Slot", "details": "Head"},
+        "ability": {"header": "Mask of Death", "details": "+1 to sneak checks vs undead creatures."}
+    }
+]

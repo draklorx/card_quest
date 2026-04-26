@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
   import { computed } from 'vue'
-  import type { CardSection } from '../models/cards'
+  import type { CardSection } from '../types/cards'
   const props = defineProps<{
     section: CardSection
   }>()
@@ -25,6 +25,7 @@
     font-weight:700;
     font-family: "Almendra SC", serif;
     font-style: normal;
+    word-spacing: 0.02in;
   }
 
   .card-section-details {

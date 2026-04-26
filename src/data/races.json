@@ -10,7 +10,7 @@
             {"stat": "health", "modifier": "+1"},
             {"stat": "focus", "modifier": "+1"}
         ],
-        "ability": {"header": "Versatile", "details": "Once per objective, before rolling, you may add +2 to one check."}
+        "ability": {"header": "Versatile", "details": "Once per objective, before rolling, you may add +1 to one check."}
     },
     {
         "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",

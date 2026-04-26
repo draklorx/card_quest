@@ -33,6 +33,11 @@
   bottom: 1.6in;
 }
 
+
+.card--treasure .ai-badge{
+  bottom: 1.8in;
+}
+
 .card--location .ai-badge {
   bottom: 1.2in;
 }

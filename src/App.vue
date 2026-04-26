@@ -1,57 +1,63 @@
 <template>
   <div id="app">
-    <CardTypeSection
+    <CardPage
       :cards="races"
       type="race"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="classes"
       type="class"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="allies"
       type="ally"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="beasts"
       type="beast"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="enemies"
       type="enemy"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="locations"
       type="location"
       :card-component="EntityCard"
     />
 
-    <CardTypeSection
+    <CardPage
       :cards="encounters"
       type="encounter"
       :card-component="EncounterCard"
+    />
+
+    <CardPage
+      :cards="treasure"
+      type="treasure"
+      :card-component="EntityCard"
     />
   </div>
 </template>
 
 <script setup lang="ts">
-import CardTypeSection from './components/CardTypeSection.vue'
+import CardPage from './components/CardPage.vue'
 import EntityCard from './components/EntityCard.vue'
 import EncounterCard from './components/EncounterCard.vue'
 import type {
   EncounterCardData,
   EntityCardData,
-} from './models/cards'
+} from './types/cards'
 import alliesData from './data/allies.json'
 import beastsData from './data/beasts.json'
 import enemiesData from './data/enemies.json'
@@ -59,6 +65,7 @@ import encountersData from './data/encounters.json'
 import locationsData from './data/locations.json'
 import raceData from './data/races.json'
 import classData from './data/classes.json'
+import treasureData from './data/treasure.json'
 
 const allies = alliesData as EntityCardData[]
 const beasts = beastsData as EntityCardData[]
@@ -67,6 +74,7 @@ const encounters = encountersData as EncounterCardData[]
 const locations = locationsData as EntityCardData[]
 const races = raceData as EntityCardData[]
 const classes = classData as EntityCardData[]
+const treasure = treasureData as EntityCardData[]
 </script>
 
 <style>
