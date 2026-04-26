@@ -1,11 +1,11 @@
 <template>
   <Card :type="type">
     <div
-      class="encounter-wrapper" 
+      class="quest-wrapper" 
       :style="parchmentStyle"
     >
       <CardTitle>{{ card.name }}</CardTitle>
-      <div class="encounter-description">
+      <div class="quest-description">
         {{ card.public_description }}
       </div>
       <CardSection :section="gm_notes" />
@@ -22,11 +22,11 @@
 import { computed } from 'vue'
 import Card from './Card.vue'
 import CardTitle from './CardTitle.vue'
-import type { EncounterCardData } from '../types/cards'
+import type { QuestCardData } from '../types/cards'
 import CardSection from './CardSection.vue';
 
 const props = defineProps<{
-  card: EncounterCardData
+  card: QuestCardData
   type: string
 }>()
 
@@ -47,7 +47,7 @@ const parchmentStyle = computed(() => ({
 
 <style scoped>
 
-.encounter-wrapper {
+.quest-wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -56,7 +56,7 @@ const parchmentStyle = computed(() => ({
   box-sizing: border-box;
 }
 
-.encounter-description {
+.quest-description {
   margin-bottom: 0.05in;
   font-size: 9pt;
   line-height: 1.3;

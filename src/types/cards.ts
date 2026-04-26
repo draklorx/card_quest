@@ -30,7 +30,7 @@ export type EntityCardData = {
   stats: CardStat[]
 }
 
-export type EncounterCardData = {
+export type QuestCardData = {
   id: string
   name: string
   public_description: string

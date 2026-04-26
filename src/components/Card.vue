@@ -27,7 +27,7 @@ const borderImages = {
   ally: new URL('../assets/cards/card_border_ally.png', import.meta.url).href,
   beast: new URL('../assets/cards/card_border_beast.png', import.meta.url).href,
   enemy: new URL('../assets/cards/card_border_enemy.png', import.meta.url).href,
-  encounter: new URL('../assets/cards/card_border_encounter.png', import.meta.url).href,
+  quest: new URL('../assets/cards/card_border_quest.png', import.meta.url).href,
   location: new URL('../assets/cards/card_border_location.png', import.meta.url).href,
   race: new URL('../assets/cards/card_border_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_border_class.png', import.meta.url).href,

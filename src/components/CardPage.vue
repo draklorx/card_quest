@@ -29,7 +29,7 @@
 <script setup lang="ts">
 import { computed, type Component } from 'vue'
 import Card from './Card.vue'
-import { EncounterCardData, EntityCardData, CardType } from '../types/cards'
+import { QuestCardData, EntityCardData, CardType } from '../types/cards'
 
 type EntitySectionProps = {
   cards: EntityCardData[]
@@ -37,19 +37,19 @@ type EntitySectionProps = {
   cardComponent: Component
 }
 
-type EncounterSectionProps = {
-  cards: EncounterCardData[]
-  type: 'encounter'
+type QuestSectionProps = {
+  cards: QuestCardData[]
+  type: 'quest'
   cardComponent: Component
 }
 
-type CardTypeSectionProps = EntitySectionProps | EncounterSectionProps
+type CardTypeSectionProps = EntitySectionProps | QuestSectionProps
 
 const backImages = {
   ally: new URL('../assets/cards/card_back_ally.png', import.meta.url).href,
   beast: new URL('../assets/cards/card_back_beast.png', import.meta.url).href,
   enemy: new URL('../assets/cards/card_back_enemy.png', import.meta.url).href,
-  encounter: new URL('../assets/cards/card_back_encounter.png', import.meta.url).href,
+  quest: new URL('../assets/cards/card_back_quest.png', import.meta.url).href,
   location: new URL('../assets/cards/card_back_location.png', import.meta.url).href,
   race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_back_class.png', import.meta.url).href,
