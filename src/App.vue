@@ -1,6 +1,12 @@
 <template>
   <div id="app">
     <CardPage
+      :cards="findings"
+      type="finding"
+      :card-component="CategoryCard"
+    />
+
+    <CardPage
       :cards="races"
       type="race"
       :card-component="EntityCard"
@@ -64,9 +70,11 @@
 
 <script setup lang="ts">
 import CardPage from './components/CardPage.vue'
+import CategoryCard from './components/CategoryCard.vue'
 import EntityCard from './components/EntityCard.vue'
 import QuestCard from './components/QuestCard.vue'
 import type {
+  CategoryCardData,
   QuestCardData,
   EntityCardData,
 } from './types/cards'
@@ -80,6 +88,7 @@ import classData from './data/classes.json'
 import treasureData from './data/treasure.json'
 import bbegData from './data/bbegs.json'
 import objectiveData from './data/objectives.json'
+import findingData from './data/findings.json'
 
 const races = raceData as EntityCardData[]
 const classes = classData as EntityCardData[]
@@ -91,6 +100,7 @@ const quests = questData as QuestCardData[]
 const objectives = objectiveData as QuestCardData[]
 const locations = locationData as EntityCardData[]
 const treasure = treasureData as EntityCardData[]
+const findings = findingData as CategoryCardData[]
 </script>
 
 <style>

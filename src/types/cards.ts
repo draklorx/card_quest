@@ -39,3 +39,8 @@ export type QuestCardData = {
   gm_notes: string
   flow: CardSection[]
 }
+
+export type CategoryCardData = {
+  id: number
+  text: string
+}

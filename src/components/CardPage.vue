@@ -29,7 +29,7 @@
 <script setup lang="ts">
 import { computed, type Component } from 'vue'
 import Card from './Card.vue'
-import { QuestCardData, EntityCardData, EntityCardType, QuestCardType } from '../types/cards'
+import { CategoryCardData, QuestCardData, EntityCardData, EntityCardType, QuestCardType } from '../types/cards'
 
 type EntitySectionProps = {
   cards: EntityCardData[]
@@ -43,7 +43,12 @@ type QuestSectionProps = {
   cardComponent: Component
 }
 
-type CardTypeSectionProps = EntitySectionProps | QuestSectionProps
+type CategorySectionProps = {
+  cards: CategoryCardData[]
+  type: 'finding'
+  cardComponent: Component
+}
+type CardTypeSectionProps = EntitySectionProps | QuestSectionProps | CategorySectionProps
 
 const backImages = {
   ally: new URL('../assets/cards/card_back_ally.png', import.meta.url).href,
@@ -56,6 +61,7 @@ const backImages = {
   treasure: new URL('../assets/cards/card_back_treasure.png', import.meta.url).href,
   bbeg: new URL('../assets/cards/card_back_bbeg.png', import.meta.url).href,
   objective: new URL('../assets/cards/card_back_objective.png', import.meta.url).href,
+  finding: new URL('../assets/cards/card_back_finding.png', import.meta.url).href,
 }
 
 const props = defineProps<CardTypeSectionProps>()
