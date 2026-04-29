@@ -4,6 +4,7 @@
         "name": "Abandoned Village",
         "image": "locations/abandoned_village.png",
         "offset": "-0.3in",
+        "categories": [],
         "stats": [
             {"stat": "search", "modifier": "-1"},
             {"stat": "sneak", "modifier": "+1"}
@@ -14,6 +15,7 @@
         "name": "Old Bridge",
         "image": "locations/old_bridge.png",
         "offset": "-0.2in",
+        "categories": [],
         "stats": [
             {"stat": "fight", "modifier": "-1"},
             {"stat": "search", "modifier": "+1"},
@@ -24,6 +26,7 @@
         "id": "1021858c-c2c2-48f1-b0e7-cd37a9a6023b",
         "name": "Dark Forest",
         "image": "locations/dark_forest.png",
+        "categories": ["Overgrown"],
         "stats": [
             {"stat": "search", "modifier": "-1"},
             {"stat": "sneak", "modifier": "+1"}
@@ -33,6 +36,7 @@
         "id": "5842aca0-3cef-4872-a662-634980b0dbc4",
         "name": "Ancient Ruins",
         "image": "locations/ancient_ruins.png",
+        "categories": ["Rocky"],
         "offset": "-0.1in",
         "stats": [
             {"stat": "fight", "modifier": "-1"},
@@ -44,6 +48,7 @@
         "id": "614e20dd-90aa-4588-915c-bc60c3a86690",
         "name": "Echo Cave",
         "image": "locations/echo_cave.png",
+        "categories": ["Flooeded", "Rocky"],
         "stats": [
             {"stat": "search", "modifier": "+1"},
             {"stat": "think", "modifier": "-1"},
@@ -55,6 +60,7 @@
         "id": "55a7fe7c-3882-4231-b34d-863ddbb611b8",
         "name": "Haunted Mansion",
         "image": "locations/haunted_mansion.png",
+        "categories": ["Magical"],
         "stats": [
             {"stat": "fight", "modifier": "-1"},
             {"stat": "search", "modifier": "-1"},
@@ -77,6 +83,7 @@
         "name": "Fire Swamp",
         "image": "locations/fire_swamp.png",
         "offset": "-0.3in",
+        "categories": ["Flooded"],
         "stats": [
             {"stat": "fight", "modifier": "-1"},
             {"stat": "search", "modifier": "-1"},
@@ -90,6 +97,7 @@
         "name": "Calming Grove",
         "image": "locations/calming_grove.png",
         "offset": "-0.3in",
+        "categories": [],
         "stats": [
             {"stat": "fight", "modifier": "-1"},
             {"stat": "think", "modifier": "+1"},

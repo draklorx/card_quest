@@ -4,7 +4,7 @@ export type Difficulty = 'auto' | 'easy' | 'medium' | 'hard' | 'impossible'
 
 export type Modifier = "+2" | "+1" | "-1"
 
-export type CardType = 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'treasure'
+export type CardType = 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'treasure' | 'bbeg' | 'objective'
 
 export type CardStat = {
   stat: StatName

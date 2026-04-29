@@ -1,169 +1,343 @@
 [
   {
     "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
-    "name": "Ally Rescue",
-    "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
-    "gm_notes": "ALLY was captured by ENEMY and is being held in their camp.",
+    "name": "Missing Person",
+    "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. TREASURE is offered for their safe return.",
     "flow": [
       {
-        "header": "Investigation",
-        "details": "You must figure out what happened and locate enemy camp."
+        "header": "1. ENEMY has kidnapped them",
+        "details": "Locate the enemy camp, face the enemy, and free the ally"
       },
       {
-        "header": "Enemy",
-        "details": "You must overcome the enemy to rescue the ally. Depending on the outcome, you may receive REWARD as loot."
+        "header": "2. BEAST has trapped them",
+        "details": "You must track the beast, face the beast, and free the ally."
       },
       {
-        "header": "Ally",
-        "details": "You must convince the ally to join you."
+        "header": "3. Ally was trapped in a hazzard",
+        "details": "You must locate the ally, and free them from the hazzard."
       }
     ]
   },
   {
     "id": "b7be652c-7472-40b4-a9ea-d2ea146ed8e9",
     "name": "Beast Trouble",
-    "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
-    "gm_notes": "ENEMY is currently cornered by the beast. Decide on the circumstance (example, pet turned on master, trapper got cornered, etc.).",
+    "public_description": "A BEAST has been causing trouble at LOCATION. TREASURE is promised to anyone who can deal with it.",
     "flow": [
       {
-        "header": "Investigation",
-        "details": "You can assess the scene and figure out what's going on."
+        "header": "1. ENEMY is goading it",
+        "details": "You must locate the enemy, face the enemy, face the beast."
       },
       {
-        "header": "Beast",
-        "details": "You must overcome the beast."
+        "header": "2. ALLY is encroaching on its territory",
+        "details": "You must convince the ally and face the beast."
       },
       {
-        "header": "Enemy",
-        "details": "You can overcome the enemy. If successful, you receive REWARD."
+        "header": "3. Another BEAST is the cause",
+        "details": "You must track the beasts, and face them."
       }
     ]
   },
   {
     "id": "3062a494-603d-4a19-96e9-a33126bc65c7",
-    "name": "Ally Quest",
-    "public_description": "ALLY is seeking brave souls to recover a lost treasure from BEAST's lair. REWARD is offered for its return.",
-    "gm_notes": "Ally won't reveal LOCATION until they decide you're the one for the job. There is more treasure than what they seek.",
+    "name": "Lost Treasure",
+    "public_description": "ALLY is seeking brave souls to recover a lost treasure from BEAST's lair. TREASURE is offered for its return.",
     "flow": [
       {
-        "header": "Ally",
-        "details": "You must convince ALLY that you're the one for the job."
+        "header": "1. Ally lost the treasure",
+        "details": "The treasure was lost at LOCATION, players must face the beast, and find the treasure."
       },
       {
-        "header": "Beast",
-        "details": "You must overcome BEAST to reclaim the treasure and bring it back to ALLY."
+        "header": "2. Ally seeks the treasure",
+        "details": "The ally has a map to LOCATION, players must face the beast, and find the treasure."
       },
       {
-        "header": "Loot",
-        "details": "You can find additional REWARD as you explore the area."
-      }
-    ]
-  },
-  {
-    "id": "7e524146-5ad8-4518-b66a-2dd2977b4fee",
-    "name": "Beast Trouble",
-    "public_description": "A BEAST has been causing trouble at LOCATION. REWARD is promised to anyone who can deal with it.",
-    "gm_notes": "Depending on how you deal with the beast there may be no reward. If befriended the beast may lead them to an alternate reward.",
-    "flow": [
-      {
-        "header": "Track",
-        "details": "You must follow the tracks to the beast's lair."
-      },
-      {
-        "header": "Beast",
-        "details": "Players must overcome the beast and secure proof that it's has been dealt with to claim the reward."
+        "header": "3. Ally has nefarious purposes",
+        "details": "The ally has nefarious pretenses, players must face the ally, go to LOCATION, face the beast, and find the treasure."
       }
     ]
   },
   {
     "id": "860d5167-dc31-4636-8949-5c88b2407189",
-    "name": "Captured Beast",
-    "public_description": "My BEAST has gone missing. REWARD for its safe return. Last seen near LOCATION.",
-    "gm_notes": "Beast was captured by ENEMY and is being held in a cage.",
+    "name": "Missing Pet",
+    "public_description": "My BEAST has gone missing. TREASURE for its safe return. Last seen near LOCATION.",
     "flow": [
       {
-        "header": "Enemy",
-        "details": "You must overcome the captors to gain access to the cage. Depending on outcome you may receive REWARD as loot."
+        "header": "1. ENEMY captured beast.",
+        "details": "You must find their camp, face the enemy, free the beast from the cage, convince the beast."
       },
       {
-        "header": "Cage",
-        "details": "You must figure out how to open the cage."
+        "header": "2. Another ALLY has adopted beast.",
+        "details": "You must find their home, convince the ally, and convince the beast."
       },
       {
-        "header": "Beast",
-        "details": "You must earn the beast's trust to return it safely to its master."
-      }
-    ]
-  },
-  {
-    "id": "eacf21e3-25d3-4714-b3e8-d0a7807f1264",
-    "name": "Ally Rescue",
-    "public_description": "ALLY has gone missing. They were last seen on the road near LOCATION. REWARD is offered for their safe return.",
-    "gm_notes": "Ally is trapped in BEAST lair. Determine the circumstance (exploration gone wrong, captured by beast, etc.)",
-    "flow": [
-      {
-        "header": "Investigation",
-        "details": "You must figure out what happened and locate the lair."
-      },
-      {
-        "header": "Beast",
-        "details": "Players must overcome or distract BEAST long enough to extract ALLY from the lair."
-      },
-      {
-        "header": "Ally",
-        "details": "You must convince the ally to join you."
+        "header": "3. BEAST has cornered the beast.",
+        "details": "You must find the hostile beast, face the hostile beast, and convince the pet beast."
       }
     ]
   },
   {
     "id": "73b37744-c6d4-4247-8a86-4fdb842ff19e",
-    "name": "Battle",
-    "public_description": "ENEMY and ENEMY forces are clashing at LOCATION, and the fighting threatens everyone nearby. REWARD is offered to anyone who can end the conflict.",
-    "gm_notes": "Players can join with one to overcome the other, take on both, try to negotiate peace, or find another way to resolve the conflict.",
+    "name": "The Conflict",
+    "public_description": "ALLY and ENEMY forces are clashing at LOCATION, and the fighting threatens everyone nearby. TREASURE is offered to anyone who can end the conflict.",
     "flow": [
       {
-        "header": "Assess",
-        "details": "You can assess the situation and decide how to approach it."
+        "header": "1. One side is right",
+        "details": "You must convince the right side to side with you and face the other enemy."
       },
       {
-        "header": "Enemy",
-        "details": "You must deal with the first ENEMY force."
+        "header": "2. Both sides are wrong",
+        "details": "You must defeat or drive away both enemies."
       },
       {
-        "header": "Enemy",
-        "details": "You must deal with the second ENEMY force."
-      }
-    ]
-  },
-  {
-    "id": "995a50d5-4d50-4e85-8e66-440dd15e3e75",
-    "name": "Friendly Challenge",
-    "public_description": "ALLY has issued a public challenge. REWARD to any one bold enough to meet them in friendly competition.",
-    "gm_notes": "ALLY is testing the party's character, skill, or worthiness for future work. Winning cleanly leads to another opportunity. Skip convincing the ally if the quest calls for it.",
-    "flow": [
-      {
-        "header": "Ally",
-        "details": "You must take part in ALLY's chosen contest and prove yourself through strength, wit, or discipline. Ally will choose the nature of the contest."
+        "header": "3. Both sides are right",
+        "details": "You must find common ground and convince both enemies."
       }
     ]
   },
   {
     "id": "ecd9b02c-6816-4d1e-8493-53860c140735",
     "name": "Recover Location",
-    "public_description": "ENEMY has seized LOCATION and driven out ALLY. REWARD is offered to anyone who drives them out.",
-    "gm_notes": "Enemy has set traps around the area.",
+    "public_description": "ENEMY has seized LOCATION and driven out ALLY. TREASURE is offered to anyone who drives them out.",
     "flow": [
       {
-        "header": "Ally",
-        "details": "Players must deal with traps set by the enemy."
+        "header": "1. BEAST drove them out of their home",
+        "details": "Drive enemy from the location, or face beast from their original home, and convince them to return."
       },
       {
-        "header": "Location",
-        "details": "You must deal with traps set by the enemy."
+        "header": "2. Enemy has set traps",
+        "details": "You must deal with the enemies' traps, then face the enemy."
       },
       {
-        "header": "Enemy",
-        "details": "You must overcome the ENEMY. Depending on how this is done you may receive REWARD as loot."
+        "header": "3. More to the story",
+        "details": "The ally missed or left out something important, negotiate a truce, or choose a side"
+      }
+    ]
+  },
+  {
+    "id": "f1a9c2e4-8b7d-4c3a-9e21-6a5d8f2b1c3e",
+    "name": "Cursed Relic",
+    "public_description": "A strange relic has begun spreading discent at LOCATION. TREASURE is offered to anyone who can lift the curse.",
+    "flow": [
+      {
+        "header": "1. ENEMY placed the curse",
+        "details": "Face the enemy and deal with the relic."
+      },
+      {
+        "header": "2. BEAST guards the relic",
+        "details": "Face the beast and deal with the relic."
+      },
+      {
+        "header": "3. RELIC is sentient",
+        "details": "Uncover the relic's nature and deal with the relic."
+      }
+    ]
+  },
+  {
+    "id": "9d3f6a1b-2c4e-47b8-9f01-5e6d7c8a2b9f",
+    "name": "Supply Caravan",
+    "public_description": "A caravan carrying vital supplies to LOCATION has gone silent. TREASURE is offered for its recovery.",
+    "flow": [
+      {
+        "header": "1. ENEMY ambushed the caravan",
+        "details": "Locate the enemy camp, face the enemy, and recover the supplies."
+      },
+      {
+        "header": "2. BEAST scattered the caravan",
+        "details": "You must track the beast, recover scattered goods, and secure the route."
+      },
+      {
+        "header": "3. ALLY betrayed the caravan",
+        "details": "You must uncover the betrayal, confront the ally, and reclaim the supplies."
+      }
+    ]
+  },
+  {
+    "id": "2b7c8d9e-5f6a-4b3c-8d1e-0a9b2c3d4e5f",
+    "name": "Haunted Location",
+    "public_description": "LOCATION is said to be haunted, driving people away. TREASURE is offered to anyone who can uncover the truth.",
+    "flow": [
+      {
+        "header": "1. ALLY is staging or cause of the hauntings",
+        "details": "You must find the ally, and stop them."
+      },
+      {
+        "header": "2. ENEMY is staging or cause of the hauntings",
+        "details": "You must find the enemy and face them."
+      },
+      {
+        "header": "3. BEAST lurks in the shadows",
+        "details": "You must track the beast and face it."
+      }
+    ]
+  },
+  {
+    "id": "7c1e2d3f-4a5b-6789-0abc-def123456789",
+    "name": "Escort Mission",
+    "public_description": "ALLY needs safe passage to LOCATION through dangerous territory. TREASURE is promised upon arrival.",
+    "flow": [
+      {
+        "header": "1. ENEMY is hunting the ally",
+        "details": "You must defend the ally from ambushes and defeat the enemy."
+      },
+      {
+        "header": "2. BEAST blocks the path",
+        "details": "You must find an alternate route or face the beast."
+      },
+      {
+        "header": "3. ALLY has a secret",
+        "details": "The ally is hiding something; uncover the truth while ensuring safe passage."
+      }
+    ]
+  },
+  {
+    "id": "5e4d3c2b-1a9f-8e7d-6c5b-4a3f2e1d0c9b",
+    "name": "Sabotage",
+    "public_description": "Critical infrastructure at LOCATION is being sabotaged. TREASURE is offered to stop whoever is responsible.",
+    "flow": [
+      {
+        "header": "1. ENEMY agents are responsible",
+        "details": "You must uncover their plot, find their base, and stop them."
+      },
+      {
+        "header": "2. ALLY is unknowingly causing it",
+        "details": "You must investigate the ally, reveal the issue, and resolve it."
+      },
+      {
+        "header": "3. BEAST interference",
+        "details": "You must track the beast disrupting the systems and deal with it."
+      }
+    ]
+  },
+  {
+    "id": "abc12345-def6-7890-abcd-ef1234567890",
+    "name": "Strange Disappearances",
+    "public_description": "People have been vanishing near LOCATION under mysterious circumstances. TREASURE is offered for answers.",
+    "flow": [
+      {
+        "header": "1. ENEMY is abducting victims",
+        "details": "You must track the kidnappings, infiltrate the enemy hideout, and rescue the victims."
+      },
+      {
+        "header": "2. BEAST is hunting locals",
+        "details": "You must identify the beast, track it, and stop it."
+      },
+      {
+        "header": "3. Magic is the cause",
+        "details": "A hidden portal is pulling people in; you must locate it and close it."
+      }
+    ]
+  },
+  {
+    "id": "1a2b3c4d-1111-2222-3333-444455556666",
+    "name": "Broken Pact",
+    "public_description": "An ancient pact between ALLY and BEAST at LOCATION has been broken. TREASURE is offered to restore balance.",
+    "flow": [
+      {
+        "header": "1. ENEMY sabotaged the pact",
+        "details": "Face the enemy, and restore the agreement."
+      },
+      {
+        "header": "2. BEAST turned hostile",
+        "details": "You must calm or defeat the beast and reestablish trust."
+      },
+      {
+        "header": "3. ALLY broke the pact",
+        "details": "You must confront the ally and decide whether to repair or end the pact."
+      }
+    ]
+  },
+  {
+    "id": "2b3c4d5e-7777-8888-9999-0000aaaabbbb",
+    "name": "Exhauneration",
+    "public_description": "ALLY arrested for causing chaos in LOCATION. TREASURE is offered to any who can exhaunerate them.",
+    "flow": [
+      {
+        "header": "1. ENEMY shapeshifter",
+        "details": "You must identify the impostor, track them, and confront the enemy."
+      },
+      {
+        "header": "2. ALLY is cursed",
+        "details": "The ally was unknowingly causing harm. You must find the source of the curse and break it."
+      },
+      {
+        "header": "3. Twin or double",
+        "details": "Another individual claims the same identity. You must investigate and determine the truth."
+      }
+    ]
+  },
+  {
+    "id": "3c4d5e6f-cccc-dddd-eeee-ffff-111122223333",
+    "name": "Flooded Ruins",
+    "public_description": "LOCATION has been flooded, revealing ancient ruins beneath. TREASURE is rumored within.",
+    "flow": [
+      {
+        "header": "1. BEAST inhabits the ruins",
+        "details": "You must dive into the ruins, face the beast, and recover treasure."
+      },
+      {
+        "header": "2. ENEMY explorers arrived first",
+        "details": "You must outmaneuver or defeat rival explorers and claim the prize."
+      },
+      {
+        "header": "3. Ruins are unstable",
+        "details": "You must navigate hazards, avoid collapse, and secure what you can."
+      }
+    ]
+  },
+  {
+    "id": "6f708192-1234-5678-90ab-cdef12345678",
+    "name": "Silent Village",
+    "public_description": "A once lively village at LOCATION now stands eerily silent. TREASURE is offered to discover what happened.",
+    "flow": [
+      {
+        "header": "1. BEAST drove them away",
+        "details": "You must track the beast and ensure it no longer threatens the area."
+      },
+      {
+        "header": "2. ENEMY occupation",
+        "details": "You must infiltrate the village and drive out the enemy."
+      },
+      {
+        "header": "3. Mysterious disappearance",
+        "details": "You must investigate clues and uncover the villagers' fate."
+      }
+    ]
+  },
+  {
+    "id": "7g8192a3-9999-8888-7777-666655554444",
+    "name": "Beast Hunt Free For All",
+    "public_description": "TREASURE offered for anyone who can hunt down BEAST at LOCATION.",
+    "flow": [
+      {
+        "header": "1. ENEMY hunters compete",
+        "details": "You must outmaneuver or defeat the rival hunters."
+      },
+      {
+        "header": "2. ALLY hunters cooperate",
+        "details": "You may work together, then decide how to split the reward."
+      },
+      {
+        "header": "3. BEAST hunts you",
+        "details": "You must first figure out how to outmaneuver the beast, then face it."
+      }
+    ]
+  },
+  {
+    "id": "8h92a3b4-2222-3333-4444-555566667777",
+    "name": "Lost Knowledge",
+    "public_description": "Ancient knowledge hidden at LOCATION could change everything. TREASURE is offered for its recovery.",
+    "flow": [
+      {
+        "header": "1. ENEMY seeks it too",
+        "details": "You must race the enemy, face them, and secure the knowledge."
+      },
+      {
+        "header": "2. BEAST guards it",
+        "details": "You must overcome the guardian beast to gain access."
+      },
+      {
+        "header": "3. Knowledge is dangerous",
+        "details": "You must decide whether to preserve or destroy it."
       }
     ]
   }

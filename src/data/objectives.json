@@ -1,0 +1,137 @@
+[
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Rescue the Ally",
+    "public_description": "You must find and rescue a key ALLY to continue your quest.",
+    "flow": [
+      {
+        "header": "Locate the ally",
+        "details": "Find the LOCATION of the ally."
+      },
+      {
+        "header": "Determine the guards",
+        "details": "Investigate what ENEMY has imprisoned them"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Defeat the Lieutenant",
+    "public_description": "You must find and defeat the lieutenant (ENEMY) to continue your quest.",
+    "flow": [
+      {
+        "header": "Locate the lieutenant",
+        "details": "Find the LOCATION of the lieutenant."
+      },
+      {
+        "header": "Determine the guardian",
+        "details": "Investigate what BEAST guards them"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Find the Artifact",
+    "public_description": "You must find the ancient artifact (TREASURE) to continue your quest.",
+    "flow": [
+      {
+        "header": "Locate the artifact",
+        "details": "Find the LOCATION of the artifact."
+      },
+      {
+        "header": "Determine the guardian",
+        "details": "Investigate what ENEMY guards the artifact"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Defend the Location",
+    "public_description": "You must defend LOCATION from attacking cavalry to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine the attackers",
+        "details": "Determine what ENEMY is going to attack"
+      },
+      {
+        "header": "Determine the mounts",
+        "details": "Investigate what BEAST the enemy is riding into battle"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Defeat the Guardian",
+    "public_description": "You must face the guardian (BEAST) to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine the location",
+        "details": "Determine where the guardian's LOCATION'"
+      },
+      {
+        "header": "Determine the minions",
+        "details": "Investigate what ENEMY is goading the beast"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Seal the Rift",
+    "public_description": "You must seal the rift at LOCATION to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine the guardians",
+        "details": "Determine what ENEMY is coming through the rift"
+      },
+      {
+        "header": "Find the key",
+        "details": "Find what key TREASURE is keeping the rift open"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Destroy the Relic",
+    "public_description": "You must find and destroy TREASURE to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine what guards it",
+        "details": "Determine what BEAST protects the relic"
+      },
+      {
+        "header": "Find the relic",
+        "details": "Find the LOCATION of the relic"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Destroy the Relic",
+    "public_description": "You must find and destroy TREASURE to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine what guards it",
+        "details": "Determine what BEAST protects the relic"
+      },
+      {
+        "header": "Find the relic",
+        "details": "Find the LOCATION of the relic"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "Charter a truce",
+    "public_description": "You must reunite two key allies and convince them to work together at LOCATION to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine the first ally",
+        "details": "Determine the identity of the first ALLY"
+      },
+      {
+        "header": "Determine the second ally",
+        "details": "Find the identity of the second ALLY"
+      }
+    ]
+  }
+]

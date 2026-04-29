@@ -3,7 +3,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Giant Slayer's Axe",
         "image": "treasure/giant_slayers_axe.png",
-        "offset": "-0.3in",
+        "offset": "-1in",
         "stats": [
             {"stat": "fight", "modifier": "+1"}
         ],
@@ -14,7 +14,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Tome of Forbidden Lore",
         "image": "treasure/tome_of_forbidden_lore.png",
-        "offset": "-0.3in",
+        "offset": "-0.5in",
         "stats": [
             {"stat": "think", "modifier": "+1"},
             {"stat": "talk", "modifier": "-1"}
@@ -26,7 +26,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Divine Avenger",
         "image": "treasure/divine_avenger.png",
-        "offset": "-0.3in",
+        "offset": "-0.2in",
         "stats": [{"stat": "fight", "modifier": "+1"}],
         "slot": {"header": "Slot", "details": "Held - 1 Hand"},
         "ability": {"header": "Avenger", "details": "+1 to fight checks vs undead and fiends."}
@@ -35,7 +35,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Oathbow",
         "image": "treasure/oathbow.png",
-        "offset": "-0.3in",
+        "offset": "-0.6in",
         "stats": [
             {"stat": "fight", "modifier": "+1"}
         ],
@@ -46,7 +46,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Lantern of Revealing",
         "image": "treasure/lantern_of_revealing.png",
-        "offset": "-0.3in",
+        "offset": "-0.9in",
         "stats": [
             {"stat": "search", "modifier": "+1"}
         ],
@@ -57,7 +57,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Dragon Scale Shield",
         "image": "treasure/dragon_scale_shield.png",
-        "offset": "-0.3in",
+        "offset": "-0.6in",
         "stats": [
             {"stat": "health", "modifier": "+1"}
         ],
@@ -67,8 +67,8 @@
     {
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Charger Grieves",
-        "image": "treasure/boots_of_water_walking.png",
-        "offset": "-0.3in",
+        "image": "treasure/charger_grieves.png",
+        "offset": "-0.5in",
         "stats": [
             {"stat": "health", "modifier": "+1"}
         ],
@@ -77,9 +77,9 @@
     },
     {
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
-        "name": "Boots of Spiderclimb",
-        "image": "treasure/boots_of_spiderclimb.png",
-        "offset": "-0.3in",
+        "name": "Boots of Spider Climb",
+        "image": "treasure/boots_of_spider_climb.png",
+        "offset": "-0.7in",
         "stats": [
             {"stat": "search", "modifier": "+1"}
         ],
@@ -90,7 +90,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Boots of Elvenkind",
         "image": "treasure/boots_of_elvenkind.png",
-        "offset": "-0.3in",
+        "offset": "-1in",
         "stats": [
             {"stat": "sneak", "modifier": "+1"}
         ],
@@ -101,7 +101,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Bracers of Defense",
         "image": "treasure/bracers_of_defense.png",
-        "offset": "-0.3in",
+        "offset": "-1in",
         "stats": [
             {"stat": "health", "modifier": "+1"},
             {"stat": "focus", "modifier": "+1"}
@@ -113,7 +113,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Gloves of Thievery",
         "image": "treasure/gloves_of_thievery.png",
-        "offset": "-0.3in",
+        "offset": "-1.1in",
         "stats": [
             {"stat": "focus", "modifier": "+1"}
         ],
@@ -124,7 +124,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Ring of Hypnotism",
         "image": "treasure/ring_of_hypnotism.png",
-        "offset": "-0.3in",
+        "offset": "-0.8in",
         "stats": [
             {"stat": "talk", "modifier": "+1"}
         ],
@@ -147,7 +147,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Mitrhril Chain",
         "image": "treasure/mithril_chain.png",
-        "offset": "-0.3in",
+        "offset": "-0.5in",
         "stats": [
             {"stat": "health", "modifier": "+1"}
         ],
@@ -170,7 +170,7 @@
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Helm of Brilliance",
         "image": "treasure/helm_of_brilliance.png",
-        "offset": "-0.3in",
+        "offset": "-0.6in",
         "stats": [
             {"stat": "think", "modifier": "+1"},
             {"stat": "focus", "modifier": "+1"}
@@ -181,8 +181,8 @@
     {
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
         "name": "Crown of Command",
-        "image": "treasure/mithril_chain.png",
-        "offset": "-0.3in",
+        "image": "treasure/crown_of_command.png",
+        "offset": "-0.7in",
         "stats": [
             {"stat": "talk", "modifier": "+1"},
             {"stat": "focus", "modifier": "+1"}
@@ -192,9 +192,9 @@
     },
     {
         "id": "302cf783-2f80-4265-896f-8b0839e7f46f",
-        "name": "Skull Helmet",
-        "image": "treasure/adamantine_plate.png",
-        "offset": "-0.3in",
+        "name": "Skull Helm",
+        "image": "treasure/skull_helm.png",
+        "offset": "-1in",
         "stats": [
             {"stat": "health", "modifier": "+1"}
         ],

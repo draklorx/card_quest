@@ -54,6 +54,8 @@ const backImages = {
   race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_back_class.png', import.meta.url).href,
   treasure: new URL('../assets/cards/card_back_treasure.png', import.meta.url).href,
+  bbeg: new URL('../assets/cards/card_back_bbeg.png', import.meta.url).href,
+  objective: new URL('../assets/cards/card_back_objective.png', import.meta.url).href,
 }
 
 const props = defineProps<CardTypeSectionProps>()

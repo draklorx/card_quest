@@ -8,7 +8,6 @@
       <div class="quest-description">
         {{ card.public_description }}
       </div>
-      <CardSection :section="gm_notes" />
       <CardSection
         v-for="(step, index) in card.flow"
         :key="index"

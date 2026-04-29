@@ -31,6 +31,12 @@
     />
 
     <CardPage
+      :cards="bbegs"
+      type="bbeg"
+      :card-component="EntityCard"
+    />
+
+    <CardPage
       :cards="locations"
       type="location"
       :card-component="EntityCard"
@@ -39,6 +45,12 @@
     <CardPage
       :cards="quests"
       type="quest"
+      :card-component="QuestCard"
+    />
+    
+    <CardPage
+      :cards="objectives"
+      type="objective"
       :card-component="QuestCard"
     />
 
@@ -66,6 +78,8 @@ import locationData from './data/locations.json'
 import raceData from './data/races.json'
 import classData from './data/classes.json'
 import treasureData from './data/treasure.json'
+import bbegData from './data/bbegs.json'
+import objectiveData from './data/objectives.json'
 
 const allies = allyData as EntityCardData[]
 const beasts = beastData as EntityCardData[]
@@ -75,6 +89,8 @@ const locations = locationData as EntityCardData[]
 const races = raceData as EntityCardData[]
 const classes = classData as EntityCardData[]
 const treasure = treasureData as EntityCardData[]
+const bbegs = bbegData as EntityCardData[]
+const objectives = objectiveData as QuestCardData[]
 </script>
 
 <style>
