@@ -37,12 +37,6 @@
     />
 
     <CardPage
-      :cards="locations"
-      type="location"
-      :card-component="EntityCard"
-    />
-
-    <CardPage
       :cards="quests"
       type="quest"
       :card-component="QuestCard"
@@ -52,6 +46,12 @@
       :cards="objectives"
       type="objective"
       :card-component="QuestCard"
+    />
+
+    <CardPage
+      :cards="locations"
+      type="location"
+      :card-component="EntityCard"
     />
 
     <CardPage
@@ -81,16 +81,16 @@ import treasureData from './data/treasure.json'
 import bbegData from './data/bbegs.json'
 import objectiveData from './data/objectives.json'
 
+const races = raceData as EntityCardData[]
+const classes = classData as EntityCardData[]
 const allies = allyData as EntityCardData[]
 const beasts = beastData as EntityCardData[]
 const enemies = enemyData as EntityCardData[]
-const quests = questData as QuestCardData[]
-const locations = locationData as EntityCardData[]
-const races = raceData as EntityCardData[]
-const classes = classData as EntityCardData[]
-const treasure = treasureData as EntityCardData[]
 const bbegs = bbegData as EntityCardData[]
+const quests = questData as QuestCardData[]
 const objectives = objectiveData as QuestCardData[]
+const locations = locationData as EntityCardData[]
+const treasure = treasureData as EntityCardData[]
 </script>
 
 <style>

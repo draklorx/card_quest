@@ -29,17 +29,17 @@
 <script setup lang="ts">
 import { computed, type Component } from 'vue'
 import Card from './Card.vue'
-import { QuestCardData, EntityCardData, CardType } from '../types/cards'
+import { QuestCardData, EntityCardData, EntityCardType, QuestCardType } from '../types/cards'
 
 type EntitySectionProps = {
   cards: EntityCardData[]
-  type: CardType
+  type: EntityCardType
   cardComponent: Component
 }
 
 type QuestSectionProps = {
   cards: QuestCardData[]
-  type: 'quest'
+  type: QuestCardType
   cardComponent: Component
 }
 
