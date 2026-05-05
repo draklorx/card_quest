@@ -41,4 +41,8 @@
 .card--location .ai-badge {
   bottom: 1.2in;
 }
+
+.card--biome .ai-badge {
+  bottom: .6in;
+}
 </style>

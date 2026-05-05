@@ -29,7 +29,7 @@ export type EntityCardData = {
   categories?: string[]
   slot?: CardSection
   ability?: CardSection
-  stats: CardStat[]
+  stats?: CardStat[]
 }
 
 export type QuestCardData = {

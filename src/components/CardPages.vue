@@ -58,6 +58,8 @@ const backImages = {
     .href,
   finding: new URL("../assets/cards/card_back_finding.png", import.meta.url)
     .href,
+  biome: new URL("../assets/cards/card_back_biome.png", import.meta.url)
+    .href,
 };
 
 const getCardComponent = (cardType: string): Component => {

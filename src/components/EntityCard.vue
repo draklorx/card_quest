@@ -1,6 +1,7 @@
 <template>
   <Card
     :type="type"
+    :background-size="'cover'"
     :background-image="cardBackground"
     :background-position-y="artOffset"
   >
@@ -27,7 +28,7 @@
         v-if="card.ability"
         :section="card.ability"
       />
-      <Stats :stats="card.stats" />
+      <Stats v-if="card.stats?.length" :stats="card.stats" />
     </BottomOverlay>
   </Card>
 </template>

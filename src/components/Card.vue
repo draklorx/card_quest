@@ -35,6 +35,7 @@ const borderImages = {
   villain: new URL('../assets/cards/card_border_villain.png', import.meta.url).href,
   objective: new URL('../assets/cards/card_border_objective.png', import.meta.url).href,
   finding: new URL('../assets/cards/card_border_finding.png', import.meta.url).href,
+  biome: new URL('../assets/cards/card_border_biome.png', import.meta.url).href,
 }
 const cardBorder = borderImages[props.type as keyof typeof borderImages]
 
