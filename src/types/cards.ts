@@ -4,7 +4,7 @@ export type Difficulty = 'auto' | 'easy' | 'medium' | 'hard' | 'impossible'
 
 export type Modifier = "+2" | "+1" | "-1"
 
-export type EntityCardType = 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'treasure' | 'bbeg'
+export type EntityCardType = 'ally' | 'beast' | 'enemy' | 'location' | 'race' | 'class' | 'treasure' | 'villain'
 
 export type QuestCardType = 'quest' | 'objective'
 
@@ -22,7 +22,7 @@ export type CardSection = {
 }
 
 export type EntityCardData = {
-  id: string
+  card_type: string
   name: string
   image: string
   offset?: string
@@ -33,7 +33,7 @@ export type EntityCardData = {
 }
 
 export type QuestCardData = {
-  id: string
+  card_type: string
   name: string
   public_description: string
   gm_notes: string
@@ -41,6 +41,6 @@ export type QuestCardData = {
 }
 
 export type CategoryCardData = {
-  id: number
+  card_type: string
   text: string
 }

@@ -59,7 +59,7 @@ const backImages = {
   race: new URL('../assets/cards/card_back_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_back_class.png', import.meta.url).href,
   treasure: new URL('../assets/cards/card_back_treasure.png', import.meta.url).href,
-  bbeg: new URL('../assets/cards/card_back_bbeg.png', import.meta.url).href,
+  villain: new URL('../assets/cards/card_back_villain.png', import.meta.url).href,
   objective: new URL('../assets/cards/card_back_objective.png', import.meta.url).href,
   finding: new URL('../assets/cards/card_back_finding.png', import.meta.url).href,
 }

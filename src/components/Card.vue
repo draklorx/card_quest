@@ -32,7 +32,7 @@ const borderImages = {
   race: new URL('../assets/cards/card_border_race.png', import.meta.url).href,
   class: new URL('../assets/cards/card_border_class.png', import.meta.url).href,
   treasure: new URL('../assets/cards/card_border_treasure.png', import.meta.url).href,
-  bbeg: new URL('../assets/cards/card_border_bbeg.png', import.meta.url).href,
+  villain: new URL('../assets/cards/card_border_villain.png', import.meta.url).href,
   objective: new URL('../assets/cards/card_border_objective.png', import.meta.url).href,
   finding: new URL('../assets/cards/card_border_finding.png', import.meta.url).href,
 }

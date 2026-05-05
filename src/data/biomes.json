@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "Forest",
+        "image": "biomes/forest.png",
+        "type": "forest"
+    }
+]

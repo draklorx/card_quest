@@ -1,7 +1,7 @@
 [
   {
     "id": "5ef9fae5-1688-486f-890f-40e2ccbd26e6",
-    "image": "bbegs/lich.png",
+    "image": "villains/lich.png",
     "offset": "-0.2in",
     "name": "Lich",
     "categories": ["Undead", "Magical"],
@@ -16,7 +16,7 @@
   {
     "id": "b2c3d4e5-f6g7-8h9i-0j1k-2l3m4n5o6p7q",
     "name": "Dragon",
-    "image": "bbegs/dragon.png",
+    "image": "villains/dragon.png",
     "offset": "-0.4in",
     "categories": ["Fire"],
     "stats": [
@@ -30,7 +30,7 @@
   {
     "id": "c3d4e5f6-g7h8-9i0j-1k2l-3m4n5o6p7q8r",
     "name": "Demon Lord",
-    "image": "bbegs/demon_lord.png",
+    "image": "villains/demon_lord.png",
     "offset": "-0.6in",
     "categories": ["Fire", "Fiend"],
     "stats": [
@@ -44,7 +44,7 @@
   {
     "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
     "name": "Evil Wizard",
-    "image": "bbegs/evil_wizard.png",
+    "image": "villains/evil_wizard.png",
     "categories": ["Magical"],
     "stats": [
       {"stat": "fight", "difficulty": "hard"},
@@ -57,7 +57,7 @@
   {
     "id": "e5f6g7h8-i9j0-1k2l-3m4n-5o6p7q8r9s0t",
     "name": "Arch Fey",
-    "image": "bbegs/arch_fey.png",
+    "image": "villains/arch_fey.png",
     "categories": ["Sylvan", "Magical"],
     "stats": [
       {"stat": "fight", "difficulty": "hard"},
@@ -70,7 +70,7 @@
   {
     "id": "f6g7h8i9-j0k1-2l3m-4n5o-6p7q8r9s0t1u",
     "name": "Giant Warlord",
-    "image": "bbegs/giant_warlord.png",
+    "image": "villains/giant_warlord.png",
     "offset": "-0.1in",
     "categories": ["Giant"],
     "stats": [
@@ -84,7 +84,7 @@
   {
     "id": "g7h8i9j0-k1l2-3m4n-5o6p-7q8r9s0t1u2v",
     "name": "Aberration",
-    "image": "bbegs/aberration.png",
+    "image": "villains/aberration.png",
     "offset": "-0.2in",
     "categories": ["Magical"],
     "stats": [
@@ -98,7 +98,7 @@
   {
     "id": "h8i9j0k1-l2m3-4n5o-6p7q-8r9s0t1u2v3w",
     "name": "Fallen Celestial",
-    "image": "bbegs/fallen_celestial.png",
+    "image": "villains/fallen_celestial.png",
     "offset": "-0.3in",
     "categories": ["Fiend", "Magical"],
     "stats": [
@@ -112,7 +112,7 @@
   {
     "id": "i9j0k1l2-m3n4-5o6p-7q8r-9s0t1u2v3w4x",
     "name": "Devourer",
-    "image": "bbegs/devourer.png",
+    "image": "villains/devourer.png",
     "offset": "-0.2in",
     "categories": ["Giant"],
     "stats": [

@@ -1,0 +1,405 @@
+[
+  {
+    "card_type": "biome",
+    "name": "Forest",
+    "image": "biomes/forest.png",
+    "type": "forest"
+  },
+  {
+    "card_type": "race",
+    "name": "Elf",
+    "image": "races/elf.png",
+    "offset": "-0.1in",
+    "stats": [
+      { "stat": "talk", "modifier": "+1" },
+      { "stat": "search", "modifier": "+1" },
+      { "stat": "focus", "modifier": "+2" }
+    ],
+    "ability": {
+      "header": "Forest Friend",
+      "details": "+2 to talk checks with sylvan creatures."
+    }
+  },
+  {
+    "card_type": "class",
+    "name": "Druid",
+    "image": "classes/druid.png",
+    "offset": "-0.6in",
+    "stats": [
+      { "stat": "talk", "modifier": "+1" },
+      { "stat": "search", "modifier": "+1" },
+      { "stat": "health", "modifier": "+1" },
+      { "stat": "focus", "modifier": "+1" }
+    ],
+    "ability": {
+      "name": "Wild Shape",
+      "description": "Once per objective, you can auto pass a sneak check."
+    }
+  },
+  {
+    "card_type": "villain",
+    "name": "Arch Fey",
+    "image": "villains/arch_fey.png",
+    "categories": ["Sylvan", "Magical"],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "hard" },
+      { "stat": "think", "difficulty": "hard" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "hard" }
+    ]
+  },
+  {
+    "card_type": "ally",
+    "name": "Pixie",
+    "image": "allies/pixie.png",
+    "offset": "-0.1in",
+    "categories": ["Sylvan", "Magical"],
+    "stats": [
+      { "stat": "fight", "difficulty": "easy" },
+      { "stat": "search", "difficulty": "hard" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "ally",
+    "name": "Treent",
+    "image": "allies/treent.png",
+    "categories": ["Sylvan", "Giant"],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "easy" }
+    ]
+  },
+  {
+    "card_type": "ally",
+    "name": "Satyr",
+    "image": "allies/satyr.png",
+    "categories": ["Sylvan"],
+    "stats": [
+      { "stat": "fight", "difficulty": "medium" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "easy" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "ally",
+    "name": "Dryad",
+    "image": "allies/dryad.png",
+    "offset": "-0.1in",
+    "categories": ["Sylvan", "Magical"],
+    "stats": [
+      { "stat": "fight", "difficulty": "medium" },
+      { "stat": "search", "difficulty": "hard" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "beast",
+    "name": "Dire Wolf",
+    "image": "beasts/dire_wolf.png",
+    "offset": "-0.35in",
+    "categories": ["Sylvan"],
+    "stats": [
+      { "stat": "fight", "difficulty": "medium" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "hard" }
+    ]
+  },
+  {
+    "card_type": "beast",
+    "name": "Giant Spider",
+    "image": "beasts/giant_spider.png",
+    "offset": "-0.4in",
+    "categories": [],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "beast",
+    "name": "Troll",
+    "image": "beasts/troll.png",
+    "offset": "-0.4in",
+    "categories": ["Giant"],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "easy" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "easy" }
+    ]
+  },
+  {
+    "card_type": "beast",
+    "name": "Owlbear",
+    "image": "beasts/owlbear.png",
+    "offset": "-0.25in",
+    "categories": ["Sylvan"],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "enemy",
+    "name": "Goblins",
+    "image": "enemies/goblin.png",
+    "offset": "-0.1in",
+    "categories": [],
+    "stats": [
+      { "stat": "fight", "difficulty": "easy" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "easy" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "hard" }
+    ]
+  },
+  {
+    "card_type": "enemy",
+    "image": "enemies/bandit.png",
+    "name": "Bandits",
+    "categories": [],
+    "stats": [
+      { "stat": "fight", "difficulty": "medium" },
+      { "stat": "search", "difficulty": "easy" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "enemy",
+    "name": "Harpy",
+    "image": "enemies/harpy.png",
+    "categories": ["Sylvan"],
+    "stats": [
+      { "stat": "fight", "difficulty": "medium" },
+      { "stat": "search", "difficulty": "easy" },
+      { "stat": "think", "difficulty": "medium" },
+      { "stat": "talk", "difficulty": "medium" },
+      { "stat": "sneak", "difficulty": "hard" }
+    ]
+  },
+  {
+    "card_type": "enemy",
+    "name": "Hag",
+    "image": "enemies/hag.png",
+    "offset": "-0.3in",
+    "categories": ["Magical"],
+    "stats": [
+      { "stat": "fight", "difficulty": "hard" },
+      { "stat": "search", "difficulty": "medium" },
+      { "stat": "think", "difficulty": "hard" },
+      { "stat": "talk", "difficulty": "hard" },
+      { "stat": "sneak", "difficulty": "medium" }
+    ]
+  },
+  {
+    "card_type": "location",
+    "name": "Calming Grove",
+    "image": "locations/calming_grove.png",
+    "offset": "-0.3in",
+    "categories": [],
+    "stats": [
+      { "stat": "fight", "modifier": "-1" },
+      { "stat": "think", "modifier": "+1" },
+      { "stat": "talk", "modifier": "+1" }
+    ]
+  },
+  {
+    "card_type": "location",
+    "name": "Dark Forest",
+    "image": "locations/dark_forest.png",
+    "categories": ["Overgrown"],
+    "stats": [
+      { "stat": "search", "modifier": "-1" },
+      { "stat": "sneak", "modifier": "+1" }
+    ]
+  },
+  {
+    "card_type": "location",
+    "name": "Old Bridge",
+    "image": "locations/old_bridge.png",
+    "offset": "-0.2in",
+    "categories": [],
+    "stats": [
+      { "stat": "fight", "modifier": "-1" },
+      { "stat": "search", "modifier": "+1" },
+      { "stat": "sneak", "modifier": "-1" }
+    ]
+  },
+  {
+    "card_type": "location",
+    "name": "Ancient Ruins",
+    "image": "locations/ancient_ruins.png",
+    "categories": ["Rocky"],
+    "offset": "-0.1in",
+    "stats": [
+      { "stat": "fight", "modifier": "-1" },
+      { "stat": "search", "modifier": "-1" },
+      { "stat": "sneak", "modifier": "+1" }
+    ]
+  },
+  {
+    "card_type": "treasure",
+    "name": "Boots of Elvenkind",
+    "image": "treasure/boots_of_elvenkind.png",
+    "offset": "-1in",
+    "stats": [{ "stat": "sneak", "modifier": "+1" }],
+    "slot": { "header": "Slot", "details": "Feet" },
+    "ability": {
+      "header": "Natural Stealth",
+      "details": "+1 to sneak checks in overgrown locations."
+    }
+  },
+  {
+    "card_type": "treasure",
+    "name": "Oathbow",
+    "image": "treasure/oathbow.png",
+    "offset": "-0.6in",
+    "stats": [{ "stat": "fight", "modifier": "+1" }],
+    "slot": { "header": "Slot", "details": "Held - 2 Hands" },
+    "ability": {
+      "header": "Oath",
+      "details": "+1 to fight checks vs any one creature / type chosen when acquired."
+    }
+  },
+  {
+    "card_type": "treasure",
+    "name": "Lantern of Revealing",
+    "image": "treasure/lantern_of_revealing.png",
+    "offset": "-0.9in",
+    "stats": [{ "stat": "search", "modifier": "+1" }],
+    "slot": { "header": "Slot", "details": "Held - 1 Hand" },
+    "ability": {
+      "header": "Reveal",
+      "details": "+1 to search checks vs undead creatures."
+    }
+  },
+  {
+    "card_type": "treasure",
+    "name": "Cloak of Shadow",
+    "image": "treasure/cloak_of_shadows.png",
+    "offset": "-0.3in",
+    "stats": [
+      { "stat": "sneak", "modifier": "+1" },
+      { "stat": "focus", "modifier": "+1" }
+    ],
+    "slot": { "header": "Slot", "details": "Body" },
+    "ability": {
+      "header": "Shadow Step",
+      "details": "Once per objective, reduce damage or stress by 1."
+    }
+  },
+  {
+    "card_type": "treasure",
+    "name": "Gloves of Thievery",
+    "image": "treasure/gloves_of_thievery.png",
+    "offset": "-1.1in",
+    "stats": [{ "stat": "focus", "modifier": "+1" }],
+    "slot": { "header": "Slot", "details": "Hands" },
+    "ability": {
+      "header": "Light Fingers",
+      "details": "+1 to sneak checks to steal, disarm, or pick locks."
+    }
+  },
+  {
+    "card_type": "treasure",
+    "name": "Skull Helm",
+    "image": "treasure/skull_helm.png",
+    "offset": "-1in",
+    "stats": [{ "stat": "health", "modifier": "+1" }],
+    "slot": { "header": "Slot", "details": "Head" },
+    "ability": {
+      "header": "Mask of Death",
+      "details": "+1 to sneak checks vs undead creatures."
+    }
+  },
+  {
+    "card_type": "quest",
+    "name": "Beast Trouble",
+    "public_description": "A BEAST has been causing trouble at LOCATION. TREASURE is promised to anyone who can deal with it.",
+    "flow": [
+      {
+        "header": "1. ENEMY is goading it",
+        "details": "You must locate the enemy, face the enemy, face the beast."
+      },
+      {
+        "header": "2. ALLY is encroaching on its territory",
+        "details": "You must convince the ally and face the beast."
+      },
+      {
+        "header": "3. Another BEAST is the cause",
+        "details": "You must track the beasts, and face them."
+      }
+    ]
+  },
+  {
+    "card_type": "quest",
+    "name": "Recover Location",
+    "public_description": "ENEMY has seized LOCATION and driven out ALLY. TREASURE is offered to anyone who drives them out.",
+    "flow": [
+      {
+        "header": "1. BEAST drove them out of their home",
+        "details": "Drive enemy from the location, or face beast from their original home, and convince them to return."
+      },
+      {
+        "header": "2. Enemy has set traps",
+        "details": "You must deal with the enemies' traps, then face the enemy."
+      },
+      {
+        "header": "3. More to the story",
+        "details": "The ally missed or left out something important, negotiate a truce, or choose a side"
+      }
+    ]
+  },
+  {
+    "card_type": "objective",
+    "name": "Rescue the Ally",
+    "public_description": "You must find and rescue a key ALLY to continue your quest.",
+    "flow": [
+      {
+        "header": "Locate the ally",
+        "details": "Find the LOCATION of the ally."
+      },
+      {
+        "header": "Determine the guards",
+        "details": "Investigate what ENEMY has imprisoned them"
+      }
+    ]
+  },
+  {
+    "card_type": "objective",
+    "name": "Defeat the Guardian",
+    "public_description": "You must face the guardian (BEAST) to continue your quest.",
+    "flow": [
+      {
+        "header": "Determine the location",
+        "details": "Determine where the guardian's LOCATION'"
+      },
+      {
+        "header": "Determine the minions",
+        "details": "Investigate what ENEMY is goading the beast"
+      }
+    ]
+  }
+]
